@@ -1,0 +1,4557 @@
+{
+ "abs-path-scan": {
+  "name": "硬编码绝对路径扫描",
+  "category": "开发助手",
+  "summary": "abs-path-scan —— 硬编码绝对路径扫描（可移植性检查）。"
+ },
+ "access-top-n": {
+  "name": "访问TopN统计",
+  "category": "网络与系统",
+  "summary": "访问TopN统计 —— 从访问日志统计 Top N 的 IP、URL、User-Agent。"
+ },
+ "acrostic-poem": {
+  "name": "藏头诗生成",
+  "category": "趣味生成",
+  "summary": "藏头诗生成 —— 给定藏头几个字，套用意象模板逐句生成藏头诗。"
+ },
+ "adjacent-dedupe": {
+  "name": "相邻重复行去重",
+  "category": "文本处理",
+  "summary": "相邻重复行去重——删除相邻重复行、压缩重复空行。"
+ },
+ "age-buckets": {
+  "name": "按未修改天数分桶",
+  "category": "文件与目录",
+  "summary": "age-buckets — 按未修改天数分桶 (7 天/30 天/1 年…), 统计各桶文件数与占用空间。"
+ },
+ "age-calc": {
+  "name": "精确年龄计算",
+  "category": "日期与日历",
+  "summary": "精确年龄计算：周岁、虚岁、总天数，下次生日倒计时与星期几。"
+ },
+ "age-size-matrix": {
+  "name": "文件年龄×大小矩阵",
+  "category": "文件与目录",
+  "summary": "文件年龄×大小矩阵（age-size-matrix）"
+ },
+ "alarm-at": {
+  "name": "定时提醒器",
+  "category": "效率办公",
+  "summary": "定时提醒器 —— 阻塞等待到指定时刻后打印消息并让终端响铃，支持相对时长写法。"
+ },
+ "alias-badge": {
+  "name": "为匿名评审/匿名问卷批量生成不重复的\"颜色+动物\"代号表",
+  "category": "效率办公",
+  "summary": "alias-badge（匿名代号牌）—— 为匿名评审/匿名问卷批量生成不重复的\"颜色+动物\"代号表。"
+ },
+ "align-columns": {
+  "name": "文本列对齐",
+  "category": "文本处理",
+  "summary": "文本列对齐 (align-columns): 按分隔符把松散文本的各行对齐成整齐的列。"
+ },
+ "alloc-waste-meter": {
+  "name": "簇分配浪费计量器",
+  "category": "网络与系统",
+  "summary": "簇分配浪费计量器（alloc-waste-meter）"
+ },
+ "amount-range-parse": {
+  "name": "金额区间表述解析",
+  "category": "财务人民币",
+  "summary": "金额区间表述解析(amount-range-parse)。"
+ },
+ "anniversary": {
+  "name": "周年纪念计算",
+  "category": "日期与日历",
+  "summary": "周年纪念计算：计算事件发生以来的整周年/整月数，支持公历与农历纪念。"
+ },
+ "ansi-strip": {
+  "name": "ANSI 转义序列清除工具",
+  "category": "文本处理",
+  "summary": "ansi-strip.py — ANSI 转义序列清除工具。"
+ },
+ "archive-inventory": {
+  "name": "压缩包内容清单",
+  "category": "文件与目录",
+  "summary": "压缩包内容清单（archive-inventory）。"
+ },
+ "archive-rotator": {
+  "name": "归档轮换清理",
+  "category": "文件与目录",
+  "summary": "归档轮换清理：按数量或保留天数把旧文件移入归档目录或删除（如日志只留最近 10 份），支持预演。"
+ },
+ "ascii-banner-index": {
+  "name": "分隔线目录生成",
+  "category": "文本处理",
+  "summary": "ascii-banner-index —— 分隔线目录生成。"
+ },
+ "ascii-cat": {
+  "name": "猫狗字符画",
+  "category": "趣味生成",
+  "summary": "猫狗字符画（ascii-cat）—— 随机输出一只 ASCII 猫/狗/兔，支持心情变体。"
+ },
+ "ascii-clock": {
+  "name": "字符时钟",
+  "category": "趣味生成",
+  "summary": "ascii-clock 字符时钟 —— 点阵大数字显示当前时间，可切换秒表模式。"
+ },
+ "ascii-heart": {
+  "name": "爱心函数",
+  "category": "趣味生成",
+  "summary": "爱心函数 —— 按心形隐函数 (x²+y²-1)³ - x²y³ < 0 打印 ASCII 爱心，可在中间嵌入祝福语。"
+ },
+ "ascii-motd": {
+  "name": "每日一画",
+  "category": "趣味生成",
+  "summary": "每日一画 (ascii-motd) -- 按日期做种子, 确定性输出一幅随机 ASCII 艺术画。"
+ },
+ "ascii-rocket": {
+  "name": "火箭发射",
+  "category": "趣味生成",
+  "summary": "火箭发射 (ascii-rocket) -- 倒计时后火箭升空喷焰的逐帧动画。"
+ },
+ "ascii-table": {
+  "name": "ASCII 表格渲染",
+  "category": "文本处理",
+  "summary": "ASCII 表格渲染：把 CSV/JSON 数据渲染成带边框对齐的终端表格。"
+ },
+ "aspect-ratio-match": {
+  "name": "计算宽高比并匹配最接近的常见比例",
+  "category": "图片与媒体",
+  "summary": "aspect-ratio-match —— 计算宽高比并匹配最接近的常见比例"
+ },
+ "assert-outside-tests": {
+  "name": "断言越界扫描",
+  "category": "开发助手",
+  "summary": "assert-outside-tests —— 断言越界扫描（单文件，仅用 Python 标准库）。"
+ },
+ "atime-lister": {
+  "name": "按最后访问时间",
+  "category": "文件与目录",
+  "summary": "atime-lister — 按最后访问时间 (atime) 排序/筛选文件, 找出长期无人读取的文件。"
+ },
+ "baby-age": {
+  "name": "宝宝月龄计算",
+  "category": "日期与日历",
+  "summary": "宝宝月龄计算：计算婴儿月龄天数，给出百天、周岁等关键日期。"
+ },
+ "backup-codes-gen": {
+  "name": "2FA 恢复码生成",
+  "category": "密码与安全",
+  "summary": "2FA 恢复码生成 —— 批量生成 xx-xxxx 格式的双因子恢复码(如 a3-9k2m)。"
+ },
+ "backup-inplace": {
+  "name": "带备份的就地清洗编辑",
+  "category": "文本处理",
+  "summary": "带备份的就地清洗编辑 (backup-inplace)。"
+ },
+ "band-namer": {
+  "name": "乐队名生成器",
+  "category": "趣味生成",
+  "summary": "乐队名生成器 —— 暗黑 / 文艺 / 搞笑三种风格的随机虚构乐队名。"
+ },
+ "banner-zh": {
+  "name": "拼音横幅",
+  "category": "中文本地化",
+  "summary": "拼音横幅 —— 把中文转成拼音后, 用内置点阵字体渲染成终端大字横幅。"
+ },
+ "base32-tool": {
+  "name": "Base32",
+  "category": "编码与哈希",
+  "summary": "base32-tool.py —— Base32（RFC 4648）与 Base16(hex) 编码解码，支持小写输出。"
+ },
+ "base62-tool": {
+  "name": "自实现的 Base62/Base36 编解码工具",
+  "category": "编码与哈希",
+  "summary": "base62-tool.py — 自实现的 Base62/Base36 编解码工具(单文件, 仅标准库)。"
+ },
+ "base64-chunk-split": {
+  "name": "Base64 分块美化",
+  "category": "编码与哈希",
+  "summary": "Base64 分块美化 —— 把长 Base64 串按定长分块、加引号或反斜杠续行, 便于粘贴进代码。"
+ },
+ "base64-decode": {
+  "name": "把 Base64 解码为文本/二进制",
+  "category": "编码与哈希",
+  "summary": "base64-decode.py —— 把 Base64 解码为文本/二进制。"
+ },
+ "base64-encode-file": {
+  "name": "文件 Base64 编解码",
+  "category": "编码与哈希",
+  "summary": "文件 Base64 编解码：在二进制文件与 Base64 文本之间互转，分块处理支持大文件。"
+ },
+ "base64-encode": {
+  "name": "把文本或文件编码为 Base64",
+  "category": "编码与哈希",
+  "summary": "base64-encode.py —— 把文本或文件编码为 Base64（RFC 4648 标准字母表）。"
+ },
+ "base64-extract": {
+  "name": "从文本/HTML/日志中抽取疑似 Base64 片段并尝试解码保存",
+  "category": "编码与哈希",
+  "summary": "base64-extract.py — 从文本/HTML/日志中抽取疑似 Base64 片段并尝试解码保存(单文件, 仅标准库)。"
+ },
+ "base64-hex-convert": {
+  "name": "Base64 与十六进制互转",
+  "category": "编码与哈希",
+  "summary": "Base64 与十六进制互转 —— 同一串二进制在 Base64 与 hex 两种表示之间转换并展示。"
+ },
+ "base64-image-inline": {
+  "name": "图片转 data URI",
+  "category": "图片与媒体",
+  "summary": "图片转 data URI —— 把图片文件转成 data:image/png;base64,... 内联字符串。"
+ },
+ "base64-stream-encode": {
+  "name": "大文件分块流式 Base64 编码器",
+  "category": "编码与哈希",
+  "summary": "base64-stream-encode.py — 大文件分块流式 Base64 编码器(单文件, 仅标准库)。"
+ },
+ "base64-validate": {
+  "name": "Base64 合法性检测",
+  "category": "编码与哈希",
+  "summary": "Base64 合法性检测 —— 检测字符串是否为合法 Base64, 报告非法字符位置并估算解码后长度。"
+ },
+ "base64url-convert": {
+  "name": "标准 Base64 与 URL-safe 变体",
+  "category": "编码与哈希",
+  "summary": "base64url-convert.py —— 标准 Base64 与 URL-safe 变体（+/ 换 -_）互转。"
+ },
+ "base85-tool": {
+  "name": "Ascii85",
+  "category": "编码与哈希",
+  "summary": "base85-tool.py —— Ascii85（a85）与 RFC 1924 Base85（b85）编码解码。"
+ },
+ "batch-render": {
+  "name": "模板批量渲染",
+  "category": "效率办公",
+  "summary": "模板批量渲染：用 string.Template 把 CSV/JSONL 每行数据填入模板批量生成文本。"
+ },
+ "batch-unzip": {
+  "name": "批量解包",
+  "category": "文件与目录",
+  "summary": "批量解包：把 zip / tar（.gz/.bz2/.xz）归档解压到目标目录。"
+ },
+ "batch-zip": {
+  "name": "批量打包",
+  "category": "文件与目录",
+  "summary": "批量打包：把一组文件或目录打包为 zip 或 tar.gz 归档。"
+ },
+ "bidi-clean": {
+  "name": "双向",
+  "category": "文本处理",
+  "summary": "bidi-clean.py — 双向（Bidi）文本控制字符清除工具。"
+ },
+ "big-text-lister": {
+  "name": "大文本文件排行",
+  "category": "文件与目录",
+  "summary": "大文本文件排行（big-text-lister）。"
+ },
+ "biggest-per-dir": {
+  "name": "各目录最大文件",
+  "category": "文件与目录",
+  "summary": "各目录最大文件：递归列出每个目录下最大的一个文件及其占该目录总量的比例。"
+ },
+ "birthday-card": {
+  "name": "生日祝福卡",
+  "category": "趣味生成",
+  "summary": "生日祝福卡 (birthday-card)。"
+ },
+ "birthday-collision-demo": {
+  "name": "生日碰撞演示",
+  "category": "编码与哈希",
+  "summary": "生日碰撞演示：在截短哈希上做生日攻击（教学用途）。"
+ },
+ "birthday-weekday": {
+  "name": "历史日期星期查询",
+  "category": "日期与日历",
+  "summary": "历史日期星期查询：查询历史某年月日是星期几及距今多少年多少天。"
+ },
+ "blackout-days": {
+  "name": "禁用日扣除筛选",
+  "category": "日期与日历",
+  "summary": "禁用日扣除筛选 —— 从日期区间中扣除禁用日期段，输出剩余可选日期清单。"
+ },
+ "blake2-keyed": {
+  "name": "BLAKE2b / BLAKE2s 带密钥哈希",
+  "category": "编码与哈希",
+  "summary": "blake2-keyed.py —— BLAKE2b / BLAKE2s 带密钥哈希（仅 Python 标准库）。"
+ },
+ "blame-line-window": {
+  "name": "行级 blame 查看",
+  "category": "开发助手",
+  "summary": "blame-line-window.py — 行级 blame 查看"
+ },
+ "blame-loc-stats": {
+  "name": "作者贡献行数",
+  "category": "开发助手",
+  "summary": "作者贡献行数 (blame-loc-stats) —— 解析 git blame 输出, 按作者统计行数贡献分布。"
+ },
+ "blank-line-density": {
+  "name": "空行密度分析 / blank line density",
+  "category": "文本处理",
+  "summary": "空行密度分析 / blank line density."
+ },
+ "blank-squeeze": {
+  "name": "空行压缩",
+  "category": "文本处理",
+  "summary": "空行压缩（blank-squeeze）——把连续多个空行压缩为指定数量，或删除全部空行。"
+ },
+ "bmp-header-dump": {
+  "name": "解析并转储 BMP 的 BITMAPFILEHEADER 与 DIB 头",
+  "category": "图片与媒体",
+  "summary": "bmp-header-dump —— 解析并转储 BMP 的 BITMAPFILEHEADER 与 DIB 头。"
+ },
+ "bmp-row-verify": {
+  "name": "BMP 行校验",
+  "category": "图片与媒体",
+  "summary": "BMP 行校验 —— 按公式核验 BMP 每行字节数(含 4 字节对齐填充)与图像数据区总长。"
+ },
+ "bom-crlf-clean": {
+  "name": "BOM 与换行符统一",
+  "category": "编码与哈希",
+  "summary": "BOM 与换行符统一 — 删除 UTF-8 BOM，并把 CRLF/LF/CR 换行符统一为指定风格。"
+ },
+ "bom-encoding-check": {
+  "name": "编码与 BOM 检查 / encoding & BOM check",
+  "category": "编码与哈希",
+  "summary": "编码与 BOM 检查 / encoding & BOM check."
+ },
+ "bom-ops": {
+  "name": "BOM 添加与移除",
+  "category": "编码与哈希",
+  "summary": "BOM 添加与移除（bom-ops）：批量给文本文件添加或移除"
+ },
+ "bom-scrub": {
+  "name": "BOM 清理器",
+  "category": "编码与哈希",
+  "summary": "BOM 清理器 - 检测并移除（或添加）UTF-8/UTF-16/UTF-32 BOM，逐文件报告处理结果。"
+ },
+ "book-title-lint": {
+  "name": "书名号规范检查",
+  "category": "中文本地化",
+  "summary": "书名号规范检查(book-title-lint)"
+ },
+ "bouncy-text": {
+  "name": "弹跳屏保字",
+  "category": "趣味生成",
+  "summary": "bouncy-text 弹跳屏保字 —— 让一行文字在终端里像 DVD 屏保一样来回弹跳。"
+ },
+ "box-frame": {
+  "name": "文本加框",
+  "category": "文本处理",
+  "summary": "文本加框 —— 给多行文本画 ASCII/Unicode 边框, 支持圆角与双线等样式。"
+ },
+ "brace-balance": {
+  "name": "括号配平检查 / brace balance check",
+  "category": "开发助手",
+  "summary": "括号配平检查 / brace balance check."
+ },
+ "breakpoint-finder": {
+  "name": "断点残留扫描",
+  "category": "开发助手",
+  "summary": "breakpoint-finder —— 断点残留扫描（单文件，仅用 Python 标准库）。"
+ },
+ "bulk-head-tail": {
+  "name": "批量截取预览",
+  "category": "文本处理",
+  "summary": "批量截取预览：为多个文本文件输出前 N 行或后 N 行，汇入一个汇总文件，带来源文件名标注。"
+ },
+ "business-hours": {
+  "name": "营业时长计算",
+  "category": "日期与日历",
+  "summary": "营业时长计算 —— 按自定义每日营业时段（可多段，如含午休；支持跨午夜"
+ },
+ "byte-frequency-report": {
+  "name": "字节分布分析",
+  "category": "编码与哈希",
+  "summary": "字节分布分析 —— 输出文件字节频率直方与高位字节(>127)占比，辅助人工判断未知编码。"
+ },
+ "cache-dir-scanner": {
+  "name": "缓存目录扫描器",
+  "category": "文件与目录",
+  "summary": "缓存目录扫描器（cache-dir-scanner）。"
+ },
+ "caesar-vigenere": {
+  "name": "凯撒",
+  "category": "密码与安全",
+  "summary": "凯撒(Caesar)移位与维吉尼亚(Vigenere)密码加解密：仅英文字母表内变换。"
+ },
+ "calendar-month": {
+  "name": "终端月历渲染",
+  "category": "日期与日历",
+  "summary": "终端月历渲染 —— 渲染指定月份的月历, 高亮今天与指定日期。"
+ },
+ "calendar-quarter": {
+  "name": "季度三月并历",
+  "category": "日期与日历",
+  "summary": "季度三月并历 —— 把某季度三个月份并排渲染在同一屏, 便于对照。"
+ },
+ "calendar-year": {
+  "name": "全年年历渲染",
+  "category": "日期与日历",
+  "summary": "全年年历渲染 —— 横排(按行并排数月)或竖排(逐月堆叠)渲染整年年历, 支持高亮指定日期。"
+ },
+ "camera-tally": {
+  "name": "按 EXIF 厂商",
+  "category": "图片与媒体",
+  "summary": "camera-tally —— 按 EXIF 厂商（Make）与机型（Model）统计照片数量。"
+ },
+ "case-conflict-finder": {
+  "name": "大小写冲突检测 / case-conflict-finder",
+  "category": "文件与目录",
+  "summary": "大小写冲突检测 / case-conflict-finder"
+ },
+ "case-conflict-scan": {
+  "name": "大小写冲突扫描",
+  "category": "文件与目录",
+  "summary": "大小写冲突扫描：找出目录中仅大小写不同的文件名对，预警跨平台（Windows/Linux）同步隐患。"
+ },
+ "case-convert": {
+  "name": "命名风格转换",
+  "category": "开发助手",
+  "summary": "命名风格转换(case-convert)"
+ },
+ "case-rename": {
+  "name": "大小写规整重命名",
+  "category": "文件与目录",
+  "summary": "大小写规整重命名（case-rename）：批量把文件名转为全小写、全大写或标题式大小写。"
+ },
+ "cert-expiry": {
+  "name": "证书有效期检查",
+  "category": "网络与系统",
+  "summary": "证书有效期检查（cert-expiry）。"
+ },
+ "chain-decoder": {
+  "name": "多层编码解链",
+  "category": "编码与哈希",
+  "summary": "多层编码解链 (chain-decoder)。"
+ },
+ "chance-card": {
+  "name": "命运卡牌",
+  "category": "趣味生成",
+  "summary": "命运卡牌（chance-card）——大富翁风格命运/机会卡抽取，支持自定义卡组文件。"
+ },
+ "chapter-renumber": {
+  "name": "章节号规范化",
+  "category": "文本处理",
+  "summary": "章节号规范化——统一章节标题格式并重排连续序号, 报告缺失章节。"
+ },
+ "chapter-splitter": {
+  "name": "小说章节拆分",
+  "category": "文本处理",
+  "summary": "小说章节拆分——按「第X章/卷」等标题正则把整本 TXT 拆成独立章节文件。"
+ },
+ "char-freq-report": {
+  "name": "字频统计报告",
+  "category": "中文本地化",
+  "summary": "字频统计报告 —— 统计文本中汉字出现频率并输出 Top N 列表。"
+ },
+ "char-freq": {
+  "name": "字符频率表",
+  "category": "文本处理",
+  "summary": "字符频率表（char-freq）：统计文本中每个字符的出现次数与占比。"
+ },
+ "char-level-diff": {
+  "name": "字符级 diff",
+  "category": "文本处理",
+  "summary": "字符级 diff：用 difflib 对两文件先按行配对，再做字符级比较，高亮行内被修改的具体字符。"
+ },
+ "char-variant-normalize": {
+  "name": "异体字标准化",
+  "category": "中文本地化",
+  "summary": "异体字标准化：把異體字/舊字形按 Unicode 标准化到目标字形。"
+ },
+ "chart-doodle": {
+  "name": "终端小图表",
+  "category": "文本处理",
+  "summary": "终端小图表 —— 把一串数字画成 ASCII 折线图 / 柱状图 / 散点图。"
+ },
+ "check-amount-format": {
+  "name": "票据金额栏格式化",
+  "category": "财务人民币",
+  "summary": "票据金额栏格式化(check-amount-format)。"
+ },
+ "checksum-manifest": {
+  "name": "批量校验和生成",
+  "category": "编码与哈希",
+  "summary": "批量校验和生成：为一批文件/目录生成 sha256sum 风格的校验清单（可选 md5/sha1）。"
+ },
+ "churn-report": {
+  "name": "高频变更报告",
+  "category": "开发助手",
+  "summary": "高频变更报告 (churn-report) —— 解析 git log --numstat, 统计各文件被修改次数与累计改动行数。"
+ },
+ "cipher-identifier": {
+  "name": "编码类型侦探",
+  "category": "编码与哈希",
+  "summary": "编码类型侦探 (cipher-identifier)。"
+ },
+ "cjk-in-code": {
+  "name": "代码中的中文",
+  "category": "中文本地化",
+  "summary": "cjk-in-code —— 代码中的中文（CJK）内容扫描，输出国际化检查清单。"
+ },
+ "clean-pipeline": {
+  "name": "清洗规则流水线",
+  "category": "文本处理",
+  "summary": "清洗规则流水线 (clean-pipeline)。"
+ },
+ "cn-file-rename": {
+  "name": "中文文件名批量清洗",
+  "category": "文件与目录",
+  "summary": "中文文件名批量清洗（cn-file-rename）"
+ },
+ "cn-line-wrap": {
+  "name": "中文列宽折行",
+  "category": "中文本地化",
+  "summary": "cn-line-wrap —— 中文列宽折行：按显示宽度把长段落折行。"
+ },
+ "cn-punct-normalize": {
+  "name": "语境标点归一",
+  "category": "中文本地化",
+  "summary": "语境标点归一（cn-punct-normalize）"
+ },
+ "cn-text-report": {
+  "name": "中文排版体检报告",
+  "category": "中文本地化",
+  "summary": "中文排版体检报告 — 一键运行多项检查（标点、空格、全半角、零宽、简繁混用）"
+ },
+ "cn-text-stats": {
+  "name": "中文字数统计",
+  "category": "中文本地化",
+  "summary": "中文字数统计 —— 分列统计汉字数、标点数、英文单词数、总字符数。"
+ },
+ "cocktail-namer": {
+  "name": "鸡尾酒命名师",
+  "category": "趣味生成",
+  "summary": "鸡尾酒命名师 —— 把心情或天气变成一款虚构鸡尾酒(名字 + 配方)。"
+ },
+ "codename-generator": {
+  "name": "项目代号生成器",
+  "category": "趣味生成",
+  "summary": "codename-generator.py — 项目代号生成器: 形容词+名词组合出 amber-falcon 风格代号(单文件, 仅标准库)。"
+ },
+ "coin-flip-cli": {
+  "name": "硬币决策器",
+  "category": "趣味生成",
+  "summary": "硬币决策器 —— 抛硬币二选一, 支持 -n 连抛并统计正反面比例。"
+ },
+ "collision-safe-rename": {
+  "name": "防冲突重命名",
+  "category": "文件与目录",
+  "summary": "防冲突重命名 (collision-safe-rename) —— 重命名时若目标名已存在, 自动在扩展名前追加序号(如 file_1.txt), 绝不覆盖既有文件。"
+ },
+ "column-cut": {
+  "name": "增强版列提取",
+  "category": "文本处理",
+  "summary": "增强版列提取：按列号（多范围、可重排/重复）、分隔符或正则捕获组提取文本列。"
+ },
+ "comment-misspell": {
+  "name": "注释与字符串英文拼写检查",
+  "category": "开发助手",
+  "summary": "comment-misspell —— 注释与字符串英文拼写检查（内置常见错拼词表）。"
+ },
+ "comment-ratio": {
+  "name": "注释率预警",
+  "category": "开发助手",
+  "summary": "注释率预警 (comment-ratio)。"
+ },
+ "commented-code-detector": {
+  "name": "注释掉的代码检测",
+  "category": "开发助手",
+  "summary": "注释掉的代码检测（commented-code-detector）——用启发式规则找出被注释掉的代码块。"
+ },
+ "compat-char-normalize": {
+  "name": "兼容字符标准化",
+  "category": "文本处理",
+  "summary": "兼容字符标准化（compat-char-normalize）"
+ },
+ "complexity-estimator": {
+  "name": "粗略复杂度估算",
+  "category": "开发助手",
+  "summary": "粗略复杂度估算 (complexity-estimator)。"
+ },
+ "compression-ratio": {
+  "name": "压缩率计算",
+  "category": "图片与媒体",
+  "summary": "压缩率计算（compression-ratio）——文件大小对比同尺寸未压缩位图。"
+ },
+ "concat-files": {
+  "name": "多文件合并",
+  "category": "文本处理",
+  "summary": "多文件合并：按命令行顺序把多个文本文件拼接成一个。"
+ },
+ "conflict-marker-scan": {
+  "name": "冲突标记扫描",
+  "category": "开发助手",
+  "summary": "conflict-marker-scan.py — 冲突标记扫描"
+ },
+ "constellation-assign": {
+  "name": "星座配对",
+  "category": "趣味生成",
+  "summary": "星座配对 —— 输入两人生成趣味配对指数与毒舌评语。"
+ },
+ "constellation-board": {
+  "name": "星座连线",
+  "category": "趣味生成",
+  "summary": "星座连线 —— 在终端打印十二星座的星点连线图。"
+ },
+ "contact-sheet-text": {
+  "name": "终端字符接触表",
+  "category": "图片与媒体",
+  "summary": "终端字符接触表（contact-sheet-text）。"
+ },
+ "content-grep-lite": {
+  "name": "递归内容搜索",
+  "category": "文本处理",
+  "summary": "递归内容搜索（content-grep-lite）—— 在目录树的文本文件中按正则查找。"
+ },
+ "content-title-rename": {
+  "name": "按内容重命名",
+  "category": "文件与目录",
+  "summary": "按内容重命名 (content-title-rename)"
+ },
+ "convert-encoding": {
+  "name": "通用编码转换",
+  "category": "编码与哈希",
+  "summary": "通用编码转换（convert-encoding）：在任意两种 Python 编解码器之间批量转换文本文件。"
+ },
+ "conway-toy": {
+  "name": "生命游戏玩具",
+  "category": "趣味生成",
+  "summary": "conway-toy 生命游戏玩具 —— 随机或自定义初始图案的康威生命游戏演示。"
+ },
+ "count-lines": {
+  "name": "批量行数统计",
+  "category": "文本处理",
+  "summary": "批量行数统计 —— 统计各文本文件的行数、字数、字节数，输出逐文件与汇总表格。"
+ },
+ "countdown-celebrate": {
+  "name": "倒计时礼炮",
+  "category": "趣味生成",
+  "summary": "倒计时礼炮 (countdown-celebrate)。"
+ },
+ "countdown-date": {
+  "name": "日期倒计时",
+  "category": "日期与日历",
+  "summary": "日期倒计时 —— 计算距离目标日期的总天数、剩余周数和工作日天数。"
+ },
+ "countdown-list": {
+  "name": "倒计时清单管理",
+  "category": "日期与日历",
+  "summary": "倒计时清单管理 —— 维护一个纪念日/事项清单文件(JSON)，按剩余天数升序显示各事项倒计时。"
+ },
+ "countdown-live": {
+  "name": "实时倒计时器",
+  "category": "效率办公",
+  "summary": "实时倒计时器 —— 终端实时刷新显示距目标时刻剩余的天/时/分/秒，到点打印消息并终端响铃。"
+ },
+ "couplet-maker": {
+  "name": "对联生成器",
+  "category": "趣味生成",
+  "summary": "对联生成器（couplet-maker）—— 随机生成上联、下联与横批的喜庆对联。"
+ },
+ "cowsay-zh": {
+  "name": "小牛/小猫等动物气泡说话",
+  "category": "趣味生成",
+  "summary": "cowsay-zh（中文 cowsay）—— 小牛/小猫等动物气泡说话，完整支持中文。"
+ },
+ "crc-tool": {
+  "name": "CRC 多项式校验/校验和命令行工具",
+  "category": "编码与哈希",
+  "summary": "crc-tool.py —— CRC 多项式校验/校验和命令行工具（仅 Python 标准库）。"
+ },
+ "cron-describe": {
+  "name": "cron 表达式解释",
+  "category": "网络与系统",
+  "summary": "cron 表达式解释 (cron-describe)。"
+ },
+ "cron-explain": {
+  "name": "Cron 表达式释义",
+  "category": "网络与系统",
+  "summary": "Cron 表达式释义 —— 把 cron 五段表达式翻译成中文人话描述其触发规律。"
+ },
+ "cron-next": {
+  "name": "Cron 未来执行推算",
+  "category": "网络与系统",
+  "summary": "Cron 未来执行推算 —— 解析 crontab 表达式并计算未来 N 次执行时间。"
+ },
+ "crop-ratio-plan": {
+  "name": "裁剪比例方案",
+  "category": "图片与媒体",
+  "summary": "裁剪比例方案（crop-ratio-plan）——按目标比例计算居中裁剪区域。"
+ },
+ "csv-column-ops": {
+  "name": "CSV 列操作",
+  "category": "数据转换",
+  "summary": "CSV 列操作：按名称或序号选择、重排、重命名、删除 CSV 的列后输出新文件。"
+ },
+ "csv-delim-convert": {
+  "name": "CSV 分隔符转换",
+  "category": "数据转换",
+  "summary": "CSV 分隔符转换。"
+ },
+ "csv-join": {
+  "name": "CSV 按键连接",
+  "category": "数据转换",
+  "summary": "CSV 按键连接（类似 SQL JOIN）。"
+ },
+ "csv-map-rename": {
+  "name": "映射表重命名",
+  "category": "文件与目录",
+  "summary": "映射表重命名 (csv-map-rename) —— 读取两列 CSV(旧名,新名)对照表, 批量重命名目录下的文件。"
+ },
+ "csv-pk-diff": {
+  "name": "CSV 按主键对比工具",
+  "category": "数据转换",
+  "summary": "csv-pk-diff.py —— CSV 按主键对比工具（仅用 Python 标准库）。"
+ },
+ "csv-profile": {
+  "name": "CSV 列画像",
+  "category": "数据转换",
+  "summary": "CSV 列画像：推断每列类型、空值率、唯一值基数、最大最小值并输出数据概览报告。"
+ },
+ "csv-redelim": {
+  "name": "在 CSV/TSV/竖线/分号等任意分隔符之间转换",
+  "category": "数据转换",
+  "summary": "csv-redelim.py -- 在 CSV/TSV/竖线/分号等任意分隔符之间转换。"
+ },
+ "csv-rows-filter": {
+  "name": "CSV 行过滤",
+  "category": "数据转换",
+  "summary": "CSV 行过滤：按列值条件（等于、包含、正则、数值比较）筛选行输出，支持多条件与取反。"
+ },
+ "csv-to-json": {
+  "name": "CSV 转 JSON 数组",
+  "category": "数据转换",
+  "summary": "CSV 转 JSON 数组。"
+ },
+ "csv-to-md-table": {
+  "name": "CSV 转 Markdown 表格",
+  "category": "数据转换",
+  "summary": "CSV 转 Markdown 表格。"
+ },
+ "csv-to-sql": {
+  "name": "CSV 转 SQL 脚本",
+  "category": "数据转换",
+  "summary": "CSV 转 SQL 脚本 —— 把 CSV 生成 INSERT 语句脚本，支持指定表名、列名与 NULL 值、引号转义。"
+ },
+ "csv-validate": {
+  "name": "CSV 结构校验",
+  "category": "数据转换",
+  "summary": "CSV 结构校验：按声明规则校验并输出违规行清单。"
+ },
+ "csv2fixed": {
+  "name": "把 CSV 各列按指定宽度左/右对齐填充",
+  "category": "数据转换",
+  "summary": "csv2fixed.py -- 把 CSV 各列按指定宽度左/右对齐填充，输出为定宽表格文本。"
+ },
+ "csv2json-typed": {
+  "name": "CSV 转 JSON",
+  "category": "数据转换",
+  "summary": "CSV 转 JSON：输出对象数组，自动推断数字 / 布尔 / null 类型。"
+ },
+ "csv2jsonl": {
+  "name": "CSV 转 JSONL",
+  "category": "数据转换",
+  "summary": "CSV 转 JSONL：把 CSV 每行转为一个 JSON 对象，支持自动数字/布尔类型推断。"
+ },
+ "csv2mdtable": {
+  "name": "CSV 转 Markdown 表格",
+  "category": "数据转换",
+  "summary": "CSV 转 Markdown 表格 — 把 CSV 转成按列宽对齐的 Markdown 表格并自动转义竖线。"
+ },
+ "csv2yaml-lite": {
+  "name": "把 CSV 转成 YAML 对象列表",
+  "category": "数据转换",
+  "summary": "csv2yaml-lite —— 把 CSV 转成 YAML 对象列表(纯标准库)。"
+ },
+ "ctrl-char-strip": {
+  "name": "控制字符清除",
+  "category": "文本处理",
+  "summary": "控制字符清除(ctrl-char-strip)"
+ },
+ "currency-symbol-normalize": {
+  "name": "货币符号规范化工具",
+  "category": "财务人民币",
+  "summary": "currency-symbol-normalize.py — 货币符号规范化工具。"
+ },
+ "daily-change-log": {
+  "name": "每日变更清单",
+  "category": "文件与目录",
+  "summary": "daily-change-log — 每日变更清单: 对比上次运行保存的状态, 输出新增/修改/删除的文件。"
+ },
+ "daily-zen": {
+  "name": "禅意一句话",
+  "category": "趣味生成",
+  "summary": "daily-zen.py — 禅意一句话：按日期输出一句伪禅语公案，附带木鱼提示符。"
+ },
+ "dash-normalize": {
+  "name": "破折号连字符规范",
+  "category": "文本处理",
+  "summary": "破折号连字符规范（dash-normalize）"
+ },
+ "date-add": {
+  "name": "日期年月日加减",
+  "category": "日期与日历",
+  "summary": "日期年月日加减 —— 对日期加减 N 年/N 月/N 天，正确处理月末溢出回退规则。"
+ },
+ "date-diff": {
+  "name": "日期差三段计算",
+  "category": "日期与日历",
+  "summary": "日期差三段计算 —— 计算两日期相差几年几月几日的精确分解及总天数。"
+ },
+ "date-fix": {
+  "name": "多格式日期标准化",
+  "category": "日期与日历",
+  "summary": "多格式日期标准化（date-fix）：尝试一组常见格式模板解析输入日期，统一转换为目标格式输出。"
+ },
+ "date-hanzi-uppercase": {
+  "name": "中文日期大写",
+  "category": "日期与日历",
+  "summary": "中文日期大写（date-hanzi-uppercase）。"
+ },
+ "date-iter": {
+  "name": "日期区间遍历",
+  "category": "日期与日历",
+  "summary": "日期区间遍历（date-iter）。"
+ },
+ "date-normalize": {
+  "name": "日期归一化",
+  "category": "日期与日历",
+  "summary": "日期归一化 (date-normalize)"
+ },
+ "date-scan": {
+  "name": "文本日期抽取",
+  "category": "日期与日历",
+  "summary": "文本日期抽取（date-scan）：从任意文本中按多模式抽取日期并去重排序，统一格式列出。"
+ },
+ "day-of-year": {
+  "name": "年积日计算",
+  "category": "日期与日历",
+  "summary": "年积日计算:计算日期为当年第几天及剩余天数;支持由年积日反查日期。"
+ },
+ "dds-header-read": {
+  "name": "DDS 头读取器",
+  "category": "图片与媒体",
+  "summary": "DDS 头读取器(dds-header-read) —— 解析 .dds 文件头，输出宽高、mipmap 层数与像素格式。"
+ },
+ "dead-code-marker": {
+  "name": "死代码模式扫描",
+  "category": "开发助手",
+  "summary": "dead-code-marker —— 死代码模式扫描（单文件，仅用 Python 标准库）。"
+ },
+ "deadline-split": {
+  "name": "任务工期拆分",
+  "category": "效率办公",
+  "summary": "任务工期拆分（deadline-split）——按每日工作日配额把总工作量拆分到具体工作日，输出进度计划。"
+ },
+ "dedupe-by-hash": {
+  "name": "重复文件查找工具",
+  "category": "文件与目录",
+  "summary": "重复文件查找工具：先按文件大小、再按内容哈希（SHA-256）两级比对找出重复文件。"
+ },
+ "dedupe-lines": {
+  "name": "行去重",
+  "category": "文本处理",
+  "summary": "行去重（dedupe-lines）——去除重复行，保留首次出现；支持忽略大小写与出现次数统计。"
+ },
+ "def-outline-counter": {
+  "name": "定义骨架概览",
+  "category": "开发助手",
+  "summary": "定义骨架概览 (def-outline-counter)。"
+ },
+ "depth-stats": {
+  "name": "目录深度统计器",
+  "category": "文件与目录",
+  "summary": "目录深度统计器（depth-stats）"
+ },
+ "detect-encoding": {
+  "name": "编码探测",
+  "category": "编码与哈希",
+  "summary": "编码探测（detect-encoding）：对文件做 BOM 检查与字节分布启发式分析，"
+ },
+ "dialogue-quote-lint": {
+  "name": "小说对话引号检查",
+  "category": "中文本地化",
+  "summary": "小说对话引号检查——检查对话引号是否成对、是否与叙述错层混用, 输出待修列表。"
+ },
+ "dice-roller": {
+  "name": "多面骰盅",
+  "category": "趣味生成",
+  "summary": "多面骰盅 —— 支持 NdM 掷骰语法(如 3d6+2), 显示每次点数明细与总和。"
+ },
+ "diff-apply-simulate": {
+  "name": "补丁模拟应用",
+  "category": "文本处理",
+  "summary": "补丁模拟应用 (diff-apply-simulate)。"
+ },
+ "diff-hunk-stats": {
+  "name": "hunk 粒度统计",
+  "category": "文本处理",
+  "summary": "diff-hunk-stats.py —— hunk 粒度统计：统计 diff 中每个 hunk 的增删行数并按幅度排序。"
+ },
+ "diff-ignore-ws": {
+  "name": "忽略空白与大小写的 diff",
+  "category": "文本处理",
+  "summary": "忽略空白与大小写的 diff：比较两文件时忽略空白与大小写差异，只看实质内容变化。"
+ },
+ "diff-noise-score": {
+  "name": "diff 噪音评分",
+  "category": "文本处理",
+  "summary": "diff-noise-score.py — diff 噪音评分"
+ },
+ "diff-patch-apply": {
+  "name": "补丁应用器",
+  "category": "文本处理",
+  "summary": "补丁应用器 (diff-patch-apply)"
+ },
+ "diff-patch": {
+  "name": "统一差异生成",
+  "category": "文本处理",
+  "summary": "统一差异生成：用 difflib 生成 unified diff 格式补丁文本，可控制上下文行数。"
+ },
+ "diff-path-filter": {
+  "name": "diff 过滤工具",
+  "category": "文本处理",
+  "summary": "diff-path-filter.py —— diff 过滤工具：按路径通配或内容关键字保留/剔除相关 hunk。"
+ },
+ "diff-real-line-num": {
+  "name": "diff 真实行号",
+  "category": "文本处理",
+  "summary": "diff 真实行号：解析 unified diff，在 hunk 头旁补充新旧版本文件中的实际行号范围，"
+ },
+ "diff-side-by-side": {
+  "name": "并排 diff 查看器",
+  "category": "文本处理",
+  "summary": "并排 diff 查看器：解析 unified diff，在终端里左右并排、按差异着色显示。"
+ },
+ "diff-stat-sum": {
+  "name": "diff统计汇总",
+  "category": "开发助手",
+  "summary": "diff统计汇总 (diff-stat-sum) —— 解析 git diff --stat / --numstat 输出, 汇总总增删行数与文件数。"
+ },
+ "diff-stat": {
+  "name": "文本差异统计",
+  "category": "文本处理",
+  "summary": "文本差异统计：用 difflib 对比两个文件，输出增/删/改行数与变更行摘要。"
+ },
+ "diff-to-html": {
+  "name": "diff 转 HTML",
+  "category": "文本处理",
+  "summary": "diff-to-html.py —— diff 转 HTML：把 unified diff 渲染成带红绿高亮的 HTML 报告。"
+ },
+ "diff-union-view": {
+  "name": "合并对照视图",
+  "category": "文本处理",
+  "summary": "合并对照视图 (diff-union-view)。"
+ },
+ "dir-checksum": {
+  "name": "目录树哈希清单",
+  "category": "编码与哈希",
+  "summary": "目录树哈希清单 (dir-checksum)"
+ },
+ "dir-compare": {
+  "name": "目录结构对比器",
+  "category": "文件与目录",
+  "summary": "目录结构对比器（dir-compare）。"
+ },
+ "dir-diff": {
+  "name": "目录差异比较",
+  "category": "文件与目录",
+  "summary": "目录差异比较：比较两个目录的文件差异（仅存在性或哈希级），输出新增/修改/缺失清单。"
+ },
+ "dir-size-bars": {
+  "name": "用 ASCII 条形图展示各子目录磁盘占用占比",
+  "category": "文件与目录",
+  "summary": "dir-size-bars.py —— 用 ASCII 条形图展示各子目录磁盘占用占比（仅用 Python 标准库）。"
+ },
+ "dirtree-du": {
+  "name": "仿 du 的目录树磁盘占用统计器",
+  "category": "文件与目录",
+  "summary": "dirtree-du.py —— 仿 du 的目录树磁盘占用统计器（仅用 Python 标准库）。"
+ },
+ "disk-free-report": {
+  "name": "磁盘剩余空间报告",
+  "category": "网络与系统",
+  "summary": "磁盘剩余空间报告 (disk-free-report)"
+ },
+ "disk-speed-test": {
+  "name": "磁盘读写测速",
+  "category": "网络与系统",
+  "summary": "disk-speed-test — 磁盘读写测速。"
+ },
+ "dna-helix": {
+  "name": "DNA 螺旋",
+  "category": "趣味生成",
+  "summary": "dna-helix DNA 螺旋 —— 旋转的双螺旋链字符动画。"
+ },
+ "download-verify": {
+  "name": "核验下载文件的实际哈希是否与官方公布的期望值一致",
+  "category": "编码与哈希",
+  "summary": "download-verify.py -- 核验下载文件的实际哈希是否与官方公布的期望值一致。"
+ },
+ "dpi-physical-size": {
+  "name": "物理尺寸换算",
+  "category": "图片与媒体",
+  "summary": "物理尺寸换算（dpi-physical-size）——把像素尺寸按 DPI 换算成英寸/厘米/毫米。"
+ },
+ "dpi-requirement-calc": {
+  "name": "DPI 需求反推",
+  "category": "图片与媒体",
+  "summary": "DPI 需求反推 (dpi-requirement-calc) —— 已知目标物理打印尺寸与目标 DPI，反推所需的最小像素尺寸。"
+ },
+ "dream-dict": {
+  "name": "周公解梦玩具",
+  "category": "趣味生成",
+  "summary": "周公解梦玩具 —— 输入梦到的事物，输出随机趣味梦境解析。"
+ },
+ "drive-type-list": {
+  "name": "磁盘类型清单",
+  "category": "网络与系统",
+  "summary": "磁盘类型清单（drive-type-list）"
+ },
+ "dry-run-rename": {
+  "name": "重命名规则预演器",
+  "category": "文件与目录",
+  "summary": "重命名规则预演器 (dry-run-rename)"
+ },
+ "dst-check": {
+  "name": "夏令时判断器",
+  "category": "日期与日历",
+  "summary": "夏令时判断器 —— 判断某日期某时区是否处于夏令时，并列出该年 DST 进入/退出日期。"
+ },
+ "du-json-export": {
+  "name": "机器可读的目录占用输出",
+  "category": "文件与目录",
+  "summary": "du-json-export —— 机器可读的目录占用输出。"
+ },
+ "du-progress": {
+  "name": "带进度的大目录统计",
+  "category": "文件与目录",
+  "summary": "du-progress — 带进度的大目录统计。"
+ },
+ "dup-across-dirs": {
+  "name": "跨目录重复对比",
+  "category": "文件与目录",
+  "summary": "跨目录重复对比 (dup-across-dirs)。"
+ },
+ "dup-archive-content": {
+  "name": "压缩包内容重复检测",
+  "category": "文件与目录",
+  "summary": "压缩包内容重复检测 (dup-archive-content) —— 不解压读取 zip/tar 成员清单找重复包。"
+ },
+ "dup-block-finder": {
+  "name": "克隆块粗检",
+  "category": "开发助手",
+  "summary": "克隆块粗检 (dup-block-finder)。"
+ },
+ "dup-block-report": {
+  "name": "重复块报告",
+  "category": "文本处理",
+  "summary": "重复块报告：在文本中找出重复出现的连续行块（>=N 行）并报告各出现位置。"
+ },
+ "dup-csv-export": {
+  "name": "重复清单导出器",
+  "category": "文件与目录",
+  "summary": "重复清单导出器（dup-csv-export）"
+ },
+ "dup-delete-script": {
+  "name": "重复文件清理脚本生成器",
+  "category": "文件与目录",
+  "summary": "重复文件清理脚本生成器 (dup-delete-script)。"
+ },
+ "dup-folder-finder": {
+  "name": "重复目录查找器",
+  "category": "文件与目录",
+  "summary": "重复目录查找器 (dup-folder-finder) —— 找出内容逐文件哈希完全一致的重复文件夹。"
+ },
+ "dup-line-finder": {
+  "name": "重复行检测",
+  "category": "文本处理",
+  "summary": "重复行检测 (dup-line-finder)。"
+ },
+ "dup-name-finder": {
+  "name": "同名文件查找器",
+  "category": "文件与目录",
+  "summary": "同名文件查找器：跨目录查找文件名相同（不论内容）的文件，按组输出。"
+ },
+ "duplicate-finder": {
+  "name": "三级过滤找出目录中的重复文件",
+  "category": "文件与目录",
+  "summary": "duplicate-finder.py -- 三级过滤找出目录中的重复文件(内容相同)。"
+ },
+ "duplicate-lines-scan": {
+  "name": "文本重复行扫描",
+  "category": "文本处理",
+  "summary": "文本重复行扫描（duplicate-lines-scan）。"
+ },
+ "duration-convert": {
+  "name": "时间单位换算",
+  "category": "日期与日历",
+  "summary": "时间单位换算（duration-convert）。"
+ },
+ "duration-format": {
+  "name": "时长人性化格式化",
+  "category": "日期与日历",
+  "summary": "时长人性化格式化（duration-format）。"
+ },
+ "dvd-bounce": {
+  "name": "DVD 待机球",
+  "category": "趣味生成",
+  "summary": "DVD 待机球 —— 经典 DVD logo 弹跳动画的字符版，撞角有彩蛋提示。"
+ },
+ "easter-date": {
+  "name": "复活节及 movable 节日日期计算",
+  "category": "日期与日历",
+  "summary": "复活节及 movable 节日日期计算（Gauss / 匿名儒略算法）。"
+ },
+ "ebook-cleaner": {
+  "name": "电子书文本清洗",
+  "category": "文本处理",
+  "summary": "ebook-cleaner —— 电子书文本清洗：一键清除 TXT 中的页眉页脚、广告行与多余空行。"
+ },
+ "ellipsis-normalize": {
+  "name": "省略号规范化",
+  "category": "文本处理",
+  "summary": "省略号规范化（ellipsis-normalize）"
+ },
+ "email-to-text": {
+  "name": "邮件转文本",
+  "category": "数据转换",
+  "summary": "邮件转文本：用标准库 email 模块解析 .eml 邮件文件，提取头部字段与正文（含解码附件名），存为纯文本。"
+ },
+ "eml2txt": {
+  "name": "邮件正文提取",
+  "category": "数据转换",
+  "summary": "邮件正文提取 (eml2txt) —— 解析 .eml 邮件文件，处理头部编码"
+ },
+ "emoji-clean": {
+  "name": "Emoji 统计与清理",
+  "category": "文本处理",
+  "summary": "Emoji 统计与清理（emoji-clean）"
+ },
+ "emoji-nickname": {
+  "name": "emoji 网名生成器",
+  "category": "趣味生成",
+  "summary": "emoji-nickname —— emoji 网名生成器。"
+ },
+ "emoji-stat": {
+  "name": "Emoji 统计剥离",
+  "category": "文本处理",
+  "summary": "Emoji 统计剥离(emoji-stat)"
+ },
+ "empty-dir-cleaner": {
+  "name": "空目录清理",
+  "category": "文件与目录",
+  "summary": "空目录清理 —— 递归删除目录树中的空目录（包括子目录清理后变空的父目录）。"
+ },
+ "empty-dir-finder": {
+  "name": "空目录查找器",
+  "category": "文件与目录",
+  "summary": "空目录查找器 (empty-dir-finder) —— 自底向上找出空目录(含删空子目录后变空的)。"
+ },
+ "empty-file-finder": {
+  "name": "空文件查找器",
+  "category": "文件与目录",
+  "summary": "空文件查找器 (empty-file-finder) —— 扫描目录树中所有 0 字节文件并按目录汇总。"
+ },
+ "enc-convert": {
+  "name": "编码转换器",
+  "category": "编码与哈希",
+  "summary": "编码转换器 - 在 GBK/GB18030/UTF-8/UTF-16 等编码间转换文本文件，可选换行符处理。"
+ },
+ "enc-detect": {
+  "name": "编码探测",
+  "category": "编码与哈希",
+  "summary": "编码探测 - 启发式猜测文本文件编码并给出置信度。"
+ },
+ "encoding-convert": {
+  "name": "中文编码互转",
+  "category": "编码与哈希",
+  "summary": "中文编码互转（encoding-convert）"
+ },
+ "encoding-probe": {
+  "name": "编码探测报告",
+  "category": "编码与哈希",
+  "summary": "编码探测报告（encoding-probe）"
+ },
+ "encoding-scan": {
+  "name": "编码扫描报告",
+  "category": "编码与哈希",
+  "summary": "encoding-scan 编码扫描报告：递归扫描目录，生成每个文件的编码清单（CSV），"
+ },
+ "entity-code": {
+  "name": "HTML 实体与明文字符双向编解码工具",
+  "category": "编码与哈希",
+  "summary": "entity-code.py — HTML 实体与明文字符双向编解码工具。"
+ },
+ "entropy-analyzer": {
+  "name": "字节分布与香农熵分析器",
+  "category": "编码与哈希",
+  "summary": "entropy-analyzer.py —— 字节分布与香农熵分析器，辅助判断数据是否被加密或压缩。"
+ },
+ "entropy-scanner": {
+  "name": "文件熵扫描器",
+  "category": "编码与哈希",
+  "summary": "entropy-scanner.py —— 文件熵扫描器"
+ },
+ "env-dump": {
+  "name": "环境变量导出器",
+  "category": "网络与系统",
+  "summary": "环境变量导出器 (env-dump) —— 排序导出环境变量，标记超长或重复的路径类变量，支持 JSON 输出。"
+ },
+ "env-file-diff": {
+  "name": "配置文件对比工具",
+  "category": "文本处理",
+  "summary": "env-file-diff.py —— 配置文件对比工具（.env / ini 风格，仅用 Python 标准库）。"
+ },
+ "env2json": {
+  "name": "把 .env 风格文件解析成 JSON 对象",
+  "category": "数据转换",
+  "summary": "env2json —— 把 .env 风格文件解析成 JSON 对象。"
+ },
+ "eol-convert": {
+  "name": "换行符转换",
+  "category": "文本处理",
+  "summary": "换行符转换 - 检测并统一文件换行符为 LF/CRLF/CR，可递归处理目录。"
+ },
+ "epoch-batch": {
+  "name": "文本时间戳批量替换",
+  "category": "日期与日历",
+  "summary": "文本时间戳批量替换 (epoch-batch)"
+ },
+ "epoch-convert": {
+  "name": "Unix 时间戳互转",
+  "category": "日期与日历",
+  "summary": "Unix 时间戳互转 (epoch-convert)"
+ },
+ "epoch-converter": {
+  "name": "以人类可读格式输出文件时间戳",
+  "category": "日期与日历",
+  "summary": "epoch-converter — 以人类可读格式输出文件时间戳, 并支持按时间范围筛选文件列表。"
+ },
+ "epoch-map": {
+  "name": "多历元时间映射",
+  "category": "日期与日历",
+  "summary": "多历元时间映射 (epoch-map)"
+ },
+ "error-cluster": {
+  "name": "错误聚类去重",
+  "category": "开发助手",
+  "summary": "error-cluster — 错误聚类去重。"
+ },
+ "escape-sequence-tool": {
+  "name": "\\xNN、\\NNN 八进制、\\uXXXX 等转义序列与原始字节互转",
+  "category": "编码与哈希",
+  "summary": "escape-sequence-tool.py —— \\xNN、\\NNN 八进制、\\uXXXX 等转义序列与原始字节互转。"
+ },
+ "exact-dup-finder": {
+  "name": "精确重复文件查找器",
+  "category": "文件与目录",
+  "summary": "精确重复文件查找器（两遍法）：先按大小分组，再对同大小文件算全量哈希。"
+ },
+ "excel-serial": {
+  "name": "Excel 序列号换算",
+  "category": "日期与日历",
+  "summary": "Excel 序列号换算 —— Excel 1900 日期序列号与公历日期互转，正确处理 1900 闰年 bug。"
+ },
+ "exception-top": {
+  "name": "异常频次排行",
+  "category": "开发助手",
+  "summary": "异常频次排行 —— 统计日志中各异常类型/错误码出现频次并排序输出。"
+ },
+ "exclude-pattern-du": {
+  "name": "排除模式的目录统计",
+  "category": "文件与目录",
+  "summary": "排除模式的目录统计（仿 du，支持 --exclude 通配符剪枝）。"
+ },
+ "excusator": {
+  "name": "万能借口机",
+  "category": "趣味生成",
+  "summary": "万能借口机（excusator）。"
+ },
+ "exif-camera-info": {
+  "name": "EXIF 相机信息",
+  "category": "图片与媒体",
+  "summary": "EXIF 相机信息 —— 输出厂商、机型、镜头型号与固件版本等设备字段。"
+ },
+ "exif-consistency": {
+  "name": "EXIF 一致性检查",
+  "category": "图片与媒体",
+  "summary": "EXIF 一致性检查 — 核对 EXIF 记录的宽高/DPI 与真实文件头是否一致，标出后期处理过的矛盾。"
+ },
+ "exif-datetime-set": {
+  "name": "等长字节替换修改 EXIF 日期时间字段",
+  "category": "图片与媒体",
+  "summary": "exif-datetime-set —— 等长字节替换修改 EXIF 日期时间字段"
+ },
+ "exif-datetime": {
+  "name": "EXIF 日期时间",
+  "category": "图片与媒体",
+  "summary": "EXIF 日期时间 - 对比 DateTimeOriginal/DateTimeDigitized/DateTime 及其差值。"
+ },
+ "exif-exposure": {
+  "name": "EXIF 曝光参数",
+  "category": "图片与媒体",
+  "summary": "EXIF 曝光参数 —— 输出光圈、快门、ISO、焦距、曝光补偿与闪光是否触发。"
+ },
+ "exif-gps": {
+  "name": "EXIF GPS 提取",
+  "category": "图片与媒体",
+  "summary": "EXIF GPS 提取 - 解析 GPS IFD 经纬度, 转十进制度并生成地图链接。"
+ },
+ "exif-lens-tally": {
+  "name": "按 EXIF 镜头型号与焦距段统计照片使用情况",
+  "category": "图片与媒体",
+  "summary": "exif-lens-tally —— 按 EXIF 镜头型号与焦距段统计照片使用情况。"
+ },
+ "exif-orientation-fix": {
+  "name": "最小侵入修正 EXIF Orientation 方向标志",
+  "category": "图片与媒体",
+  "summary": "exif-orientation-fix —— 最小侵入修正 EXIF Orientation 方向标志"
+ },
+ "exif-orientation": {
+  "name": "EXIF 方向读取",
+  "category": "图片与媒体",
+  "summary": "EXIF 方向读取 —— 读取 JPEG/TIFF 的 EXIF Orientation(0x0112) 标志，并翻译成"
+ },
+ "exif-raw-dump": {
+  "name": "EXIF 原始转储",
+  "category": "图片与媒体",
+  "summary": "EXIF 原始转储 - 按 tag 编号/类型/计数/原始字节十六进制转储 EXIF 条目。"
+ },
+ "exif-read": {
+  "name": "EXIF 读取",
+  "category": "图片与媒体",
+  "summary": "EXIF 读取 - 解析 JPEG APP1 中的 TIFF 结构, 列出 IFD0/Exif/GPS 全部标签。"
+ },
+ "exif-thumbnail-extract": {
+  "name": "EXIF 缩略图提取",
+  "category": "图片与媒体",
+  "summary": "EXIF 缩略图提取 —— 定位 IFD1 的 JPEGInterchangeFormat 数据，"
+ },
+ "ext-mismatch-finder": {
+  "name": "扩展名伪装检测",
+  "category": "文件与目录",
+  "summary": "扩展名伪装检测（ext-mismatch-finder）"
+ },
+ "ext-rename": {
+  "name": "扩展名改写",
+  "category": "文件与目录",
+  "summary": "扩展名改写 (ext-rename) —— 批量修改文件扩展名。"
+ },
+ "ext-usage-report": {
+  "name": "扩展名占用分析",
+  "category": "文件与目录",
+  "summary": "扩展名占用分析 (ext-usage-report)"
+ },
+ "extract-entities": {
+  "name": "实体提取器",
+  "category": "其他",
+  "summary": "实体提取器 (extract-entities)。"
+ },
+ "extract-line-range": {
+  "name": "行区间提取工具",
+  "category": "文本处理",
+  "summary": "行区间提取工具：从（大）文件中抽取部分行。"
+ },
+ "fake-compile": {
+  "name": "老板键伪装",
+  "category": "趣味生成",
+  "summary": "老板键伪装 —— 一键清屏假装在跑漫长的编译与测试日志。"
+ },
+ "fantasy-name": {
+  "name": "奇幻人名生成",
+  "category": "趣味生成",
+  "summary": "fantasy-name.py — 奇幻人名生成: 音节拼接出精灵/矮人/兽人/人类风格的虚构人名(单文件, 仅标准库)。"
+ },
+ "fast-dup-partial-hash": {
+  "name": "快速重复文件扫描器",
+  "category": "文件与目录",
+  "summary": "快速重复文件扫描器：大小 → 首块哈希 → 全量哈希 三级过滤。"
+ },
+ "feng-shui-tip": {
+  "name": "风水小贴士",
+  "category": "趣味生成",
+  "summary": "风水小贴士 —— 每日一条玄学建议，可信度自负。"
+ },
+ "figlet-lite": {
+  "name": "英文大字标题",
+  "category": "趣味生成",
+  "summary": "英文大字标题 —— 内置 5 行点阵字体, 把英文单词渲染成终端大字横幅。"
+ },
+ "file-compare-hash": {
+  "name": "文件相同性比较",
+  "category": "文件与目录",
+  "summary": "文件相同性比较 (file-compare-hash)"
+ },
+ "file-count-census": {
+  "name": "目录文件数普查",
+  "category": "文件与目录",
+  "summary": "目录文件数普查 (file-count-census)"
+ },
+ "file-count-history": {
+  "name": "目录增长追踪器",
+  "category": "文件与目录",
+  "summary": "目录增长追踪器（file-count-history）。"
+ },
+ "file-fuzzy-fingerprint": {
+  "name": "模糊文件指纹",
+  "category": "文件与目录",
+  "summary": "模糊文件指纹（ssdeep 风格）与文件相似度评估。"
+ },
+ "file-hash": {
+  "name": "文件哈希计算",
+  "category": "编码与哈希",
+  "summary": "文件哈希计算 (file-hash)"
+ },
+ "file-inventory-export": {
+  "name": "文件清单导出器",
+  "category": "文件与目录",
+  "summary": "文件清单导出器（file-inventory-export）。"
+ },
+ "file-inventory": {
+  "name": "文件清单导出",
+  "category": "文件与目录",
+  "summary": "文件清单导出 —— 把目录树信息（路径、大小、修改时间、可选哈希）导出为 CSV 或 JSON。"
+ },
+ "file-merge-planner": {
+  "name": "目录合并预演",
+  "category": "文件与目录",
+  "summary": "file-merge-planner —— 目录合并预演（dry-run，不改动任何文件）。"
+ },
+ "file-size-rank": {
+  "name": "文件行数排行 / file size rank",
+  "category": "文件与目录",
+  "summary": "文件行数排行 / file size rank."
+ },
+ "filename-length-stats": {
+  "name": "文件名长度统计 / filename-length-stats",
+  "category": "文件与目录",
+  "summary": "文件名长度统计 / filename-length-stats"
+ },
+ "filename-regex-finder": {
+  "name": "文件名正则搜索",
+  "category": "文件与目录",
+  "summary": "文件名正则搜索（filename-regex-finder）—— 按正则或通配符在整棵树中查找文件名。"
+ },
+ "files-by-month": {
+  "name": "按修改年月分组统计文件数量与大小",
+  "category": "文件与目录",
+  "summary": "files-by-month.py —— 按修改年月分组统计文件数量与大小，生成时间轴式占用报表（仅用 Python 标准库）。"
+ },
+ "find-replace-rename": {
+  "name": "查找替换重命名",
+  "category": "文件与目录",
+  "summary": "查找替换重命名（find-replace-rename）：对文件名做字面字符串替换。"
+ },
+ "fireplace-ascii": {
+  "name": "壁炉氛围灯",
+  "category": "趣味生成",
+  "summary": "壁炉氛围灯 —— 火焰摇曳明暗变化的终端壁炉动画。"
+ },
+ "fiscal-progress": {
+  "name": "财年进度显示",
+  "category": "日期与日历",
+  "summary": "财年进度显示：显示某日期在其财年内已过/剩余的日历天数与工作日（周一至周五）及百分比进度。"
+ },
+ "fiscal-quarter": {
+  "name": "财年季度计算",
+  "category": "日期与日历",
+  "summary": "财年季度计算：按自定义财年起始月，计算日期所属财年与财季，并给出财年/财季起止日期。"
+ },
+ "fix-mojibake": {
+  "name": "乱码修复",
+  "category": "编码与哈希",
+  "summary": "乱码修复（fix-mojibake）：尝试 latin1、cp1252、GBK 等常见错误解码链路，"
+ },
+ "fixed-width-to-csv": {
+  "name": "定宽文本转 CSV",
+  "category": "数据转换",
+  "summary": "定宽文本转 CSV：按列宽规格或自动检测对齐边界，把定宽(fixed-width)报表文本切分为 CSV。"
+ },
+ "fixed2csv": {
+  "name": "把定宽",
+  "category": "数据转换",
+  "summary": "fixed2csv.py -- 把定宽（fixed-width）报表文本解析为 CSV。"
+ },
+ "flatten-planner": {
+  "name": "目录扁平化预演",
+  "category": "文件与目录",
+  "summary": "flatten-planner.py —— 目录扁平化预演：预演“把深层文件提升到目标层级”会发生哪些名称冲突（仅预演，绝不改动文件）。"
+ },
+ "flatten-rename": {
+  "name": "拉平重命名",
+  "category": "文件与目录",
+  "summary": "拉平重命名 (flatten-rename)"
+ },
+ "format-cheatsheet": {
+  "name": "strftime 速查试算",
+  "category": "日期与日历",
+  "summary": "strftime 速查试算（format-cheatsheet）：列出 strftime/strptime 全部格式码并用当前时间实例试算展示。"
+ },
+ "fortune-cookie": {
+  "name": "经典 fortune 命令的克隆",
+  "category": "趣味生成",
+  "summary": "fortune-cookie（签语饼）—— 经典 fortune 命令的克隆，随机输出一条签语或格言。"
+ },
+ "fractal-tree": {
+  "name": "分形圣诞树",
+  "category": "趣味生成",
+  "summary": "分形圣诞树（fractal-tree）—— 递归打印分形树，可调层数并挂彩灯字符。"
+ },
+ "fs-case-sensitivity": {
+  "name": "文件系统大小写敏感性测试",
+  "category": "文件与目录",
+  "summary": "文件系统大小写敏感性测试（fs-case-sensitivity）。"
+ },
+ "fullwidth-normalize": {
+  "name": "全角字母数字转半角",
+  "category": "中文本地化",
+  "summary": "全角字母数字转半角 (fullwidth-normalize)。"
+ },
+ "fullwidth-swap": {
+  "name": "全角/半角字母数字标点互转工具",
+  "category": "中文本地化",
+  "summary": "fullwidth-swap.py — 全角/半角字母数字标点互转工具。"
+ },
+ "func-length-scan": {
+  "name": "超长函数扫描",
+  "category": "开发助手",
+  "summary": "超长函数扫描（func-length-scan）"
+ },
+ "fuzzy-name-match": {
+  "name": "相似文件名匹配器",
+  "category": "文件与目录",
+  "summary": "相似文件名匹配器 (fuzzy-name-match)。"
+ },
+ "ganzhi": {
+  "name": "干支纪年纪日查询",
+  "category": "日期与日历",
+  "summary": "干支纪年纪日查询（纯标准库实现）。"
+ },
+ "gbk-utf8-convert": {
+  "name": "GBK 与 UTF-8 互转",
+  "category": "编码与哈希",
+  "summary": "GBK 与 UTF-8 互转（gbk-utf8-convert）：中文场景一站式转换，"
+ },
+ "gif-anim-info": {
+  "name": "输出 GIF 动画信息",
+  "category": "图片与媒体",
+  "summary": "gif-anim-info —— 输出 GIF 动画信息:帧数、每帧延时、循环次数与总播放时长、disposal。"
+ },
+ "gif-block-map": {
+  "name": "按顺序列出 GIF 数据流中每个块的偏移、大小与摘要",
+  "category": "图片与媒体",
+  "summary": "gif-block-map —— 按顺序列出 GIF 数据流中每个块的偏移、大小与摘要。"
+ },
+ "gif-comment-extract": {
+  "name": "提取 GIF 注释扩展",
+  "category": "图片与媒体",
+  "summary": "gif-comment-extract —— 提取 GIF 注释扩展(89a Comment Extension)中的全部文本。"
+ },
+ "gif-frame-bbox": {
+  "name": "列出 GIF 每帧的左上偏移与宽高",
+  "category": "图片与媒体",
+  "summary": "gif-frame-bbox —— 列出 GIF 每帧的左上偏移与宽高(帧矩形)及其是否覆盖全画布。"
+ },
+ "gif-frame-extract-info": {
+  "name": "定位 GIF 指定帧的图像描述符与图形控制扩展",
+  "category": "图片与媒体",
+  "summary": "gif-frame-extract-info —— 定位 GIF 指定帧的图像描述符与图形控制扩展。"
+ },
+ "gif-header-dump": {
+  "name": "解析并转储 GIF 头部",
+  "category": "图片与媒体",
+  "summary": "gif-header-dump —— 解析并转储 GIF 头部(逻辑屏幕描述符)。"
+ },
+ "gif-loop-check": {
+  "name": "检查 GIF 的 NETSCAPE 应用扩展",
+  "category": "图片与媒体",
+  "summary": "gif-loop-check —— 检查 GIF 的 NETSCAPE 应用扩展, 报告是否无限循环及循环次数。"
+ },
+ "gif-palette-dump": {
+  "name": "输出 GIF 全局/局部调色板的项数与前 N 项 RGB 值",
+  "category": "图片与媒体",
+  "summary": "gif-palette-dump —— 输出 GIF 全局/局部调色板的项数与前 N 项 RGB 值。"
+ },
+ "git-range-diff-stat": {
+  "name": "提交区间统计",
+  "category": "开发助手",
+  "summary": "git-range-diff-stat.py — 提交区间统计"
+ },
+ "gitlog2json": {
+  "name": "git log 转 JSON",
+  "category": "开发助手",
+  "summary": "git log 转 JSON (gitlog2json)。"
+ },
+ "glitch-text": {
+  "name": "故障艺术字",
+  "category": "趣味生成",
+  "summary": "故障艺术字 (glitch-text)。"
+ },
+ "glob-mover": {
+  "name": "模式批量移动复制",
+  "category": "文件与目录",
+  "summary": "模式批量移动复制：按 glob 通配符批量移动或复制文件到目标目录，目标重名时自动加序号防覆盖。"
+ },
+ "grep-with-context": {
+  "name": "带行号与上下文窗口的模式搜索",
+  "category": "文本处理",
+  "summary": "grep-with-context —— 带行号与上下文窗口的模式搜索（支持正则与结果着色）。"
+ },
+ "group-seat-draw": {
+  "name": "抽签排座",
+  "category": "效率办公",
+  "summary": "抽签排座（group-seat-draw）——生成教室/会议的随机座位安排表（文本版座位图）。"
+ },
+ "growth-snapshot": {
+  "name": "代码增长趋势",
+  "category": "开发助手",
+  "summary": "代码增长趋势（growth-snapshot）"
+ },
+ "gzip-convert": {
+  "name": "压缩格式互转",
+  "category": "文件与目录",
+  "summary": "压缩格式互转：在 gzip、bz2、xz 三种压缩格式之间转换单个文件，可选压缩级别。"
+ },
+ "hack-reason-check": {
+  "name": "HACK 说明检查",
+  "category": "开发助手",
+  "summary": "HACK 说明检查（hack-reason-check）——扫描 HACK/WORKAROUND 标记并检查其后是否附带原因说明。"
+ },
+ "haiku-maker": {
+  "name": "俳句抽签",
+  "category": "趣味生成",
+  "summary": "俳句抽签（haiku-maker）—— 随机组合季节意象，生成 5-7-5 三行俳句。"
+ },
+ "halfwidth-punct-cn": {
+  "name": "半角标点转全角",
+  "category": "中文本地化",
+  "summary": "半角标点转全角 (halfwidth-punct-cn)。"
+ },
+ "han-space-lint": {
+  "name": "中英混排空格检查",
+  "category": "中文本地化",
+  "summary": "中英混排空格检查（han-space-lint）"
+ },
+ "hanzi-date-parse": {
+  "name": "中文日期解析",
+  "category": "中文本地化",
+  "summary": "中文日期解析（hanzi-date-parse）。"
+ },
+ "hanzi-ordinal-parse": {
+  "name": "中文序号反解析",
+  "category": "中文本地化",
+  "summary": "中文序号反解析（hanzi-ordinal-parse）。"
+ },
+ "hanzi-script-classify": {
+  "name": "汉字字形归类",
+  "category": "中文本地化",
+  "summary": "汉字字形归类：对输入的每个汉字标注 简体专属/繁体专属/两岸通用。"
+ },
+ "hanzi-to-number": {
+  "name": "中文数字转阿拉伯数字",
+  "category": "中文本地化",
+  "summary": "中文数字转阿拉伯数字（单文件，仅 Python 标准库）。"
+ },
+ "hardcoded-ip-scan": {
+  "name": "硬编码 IP 与内网 URL 扫描",
+  "category": "开发助手",
+  "summary": "hardcoded-ip-scan —— 硬编码 IP 与内网 URL 扫描。"
+ },
+ "hardlink-candidate": {
+  "name": "硬链接合并候选建议",
+  "category": "文件与目录",
+  "summary": "硬链接合并候选建议 (hardlink-candidate)。"
+ },
+ "hardlink-detector": {
+  "name": "硬链接检测器",
+  "category": "文件与目录",
+  "summary": "硬链接检测器 (hardlink-detector)。"
+ },
+ "hash-benchmark": {
+  "name": "哈希算法基准测试",
+  "category": "编码与哈希",
+  "summary": "哈希算法基准测试 (hash-benchmark)"
+ },
+ "hash-format-mcf": {
+  "name": "将算法+盐+哈希打包成 Modular-Crypt-Format 风格字符串",
+  "category": "密码与安全",
+  "summary": "hash-format-mcf -- 将算法+盐+哈希打包成 Modular-Crypt-Format 风格字符串，并能解析还原参数。"
+ },
+ "hash-identify": {
+  "name": "未知哈希算法类型识别",
+  "category": "编码与哈希",
+  "summary": "hash-identify.py —— 未知哈希算法类型识别（启发式，仅 Python 标准库）。"
+ },
+ "hash-manifest": {
+  "name": "文件指纹清单生成器",
+  "category": "编码与哈希",
+  "summary": "文件指纹清单生成器（hash-manifest）。"
+ },
+ "hash-verify": {
+  "name": "校验和清单核对",
+  "category": "编码与哈希",
+  "summary": "校验和清单核对 (hash-verify)"
+ },
+ "hash-watch": {
+  "name": "轮询监视指定文件的哈希",
+  "category": "编码与哈希",
+  "summary": "hash-watch.py -- 轮询监视指定文件的哈希, 一旦变化立即打印告警。"
+ },
+ "hebrew-calendar": {
+  "name": "希伯来历换算",
+  "category": "日期与日历",
+  "summary": "希伯来历换算：公历与希伯来历（tabular 固定算术算法）互转，输出月份名与年份号。"
+ },
+ "hex-dump-convert": {
+  "name": "十六进制转储与还原",
+  "category": "编码与哈希",
+  "summary": "十六进制转储与还原：生成 hexdump 样式的 偏移+十六进制+ASCII 文本，也可从该格式逆向还原二进制文件。"
+ },
+ "hex-dump": {
+  "name": "类 xxd 的十六进制查看器",
+  "category": "编码与哈希",
+  "summary": "hex-dump.py — 类 xxd 的十六进制查看器(单文件, 仅标准库)。"
+ },
+ "hex-head-dump": {
+  "name": "文件头十六进制查看器",
+  "category": "编码与哈希",
+  "summary": "hex-head-dump.py —— 文件头十六进制查看器"
+ },
+ "hexview": {
+  "name": "十六进制查看",
+  "category": "编码与哈希",
+  "summary": "十六进制查看：输出文件的 hex dump 视图（偏移 + 十六进制 + ASCII 栏）。"
+ },
+ "hibp-check": {
+  "name": "口令泄露库核查",
+  "category": "密码与安全",
+  "summary": "口令泄露库核查（Have I Been Pwned，k-匿名查询）。"
+ },
+ "hidden-file-report": {
+  "name": "隐藏文件报告",
+  "category": "文件与目录",
+  "summary": "隐藏文件报告（hidden-file-report）。"
+ },
+ "hk-hkd-uppercase": {
+  "name": "按香港支票规范把金额转为港币中文大写",
+  "category": "财务人民币",
+  "summary": "hk-hkd-uppercase —— 按香港支票规范把金额转为港币中文大写。"
+ },
+ "hkdf-tool": {
+  "name": "RFC 5869 HKDF",
+  "category": "密码与安全",
+  "summary": "hkdf-tool -- RFC 5869 HKDF（Extract/Expand 两阶段）密钥派生，纯标准库实现。"
+ },
+ "hmac-tool": {
+  "name": "HMAC 消息认证码生成与安全比对",
+  "category": "密码与安全",
+  "summary": "hmac-tool.py —— HMAC 消息认证码生成与安全比对（仅 Python 标准库）。"
+ },
+ "holiday-cn": {
+  "name": "中国法定节假日查询",
+  "category": "日期与日历",
+  "summary": "中国法定节假日查询 —— 内置数据查询中国法定假日与调休补班日，判断某日是否上班。"
+ },
+ "holiday-ical-export": {
+  "name": "节假日 iCal 导出",
+  "category": "日期与日历",
+  "summary": "节假日 iCal 导出 —— 把某年节假日列表生成为 .ics 日历文件（RFC 5545"
+ },
+ "holiday-us": {
+  "name": "美国联邦假日表",
+  "category": "日期与日历",
+  "summary": "美国联邦假日表 —— 按规则生成指定年份美国联邦假日完整日期表。"
+ },
+ "home-size-breakdown": {
+  "name": "用户目录占用分解",
+  "category": "文件与目录",
+  "summary": "用户目录占用分解 (home-size-breakdown) —— 按一级子目录分解用户主目录的磁盘占用并降序排列。"
+ },
+ "horoscope-daily": {
+  "name": "每日星运",
+  "category": "趣味生成",
+  "summary": "每日星运 —— 按日期种子为十二星座生成今日运势与幸运色。"
+ },
+ "hotp-gen": {
+  "name": "HOTP 计数器口令生成器",
+  "category": "密码与安全",
+  "summary": "HOTP 计数器口令生成器 (RFC 4226)。"
+ },
+ "html-escape-tool": {
+  "name": "HTML 实体转义/还原",
+  "category": "编码与哈希",
+  "summary": "HTML 实体转义/还原：特殊字符与命名/数字实体(&amp; &#65;)互相转换。"
+ },
+ "html-table-to-csv": {
+  "name": "HTML 表格抽取为 CSV",
+  "category": "数据转换",
+  "summary": "HTML 表格抽取为 CSV。"
+ },
+ "html-to-text": {
+  "name": "HTML 转纯文本",
+  "category": "数据转换",
+  "summary": "HTML 转纯文本。"
+ },
+ "html2text": {
+  "name": "HTML 提纯文本",
+  "category": "数据转换",
+  "summary": "HTML 提纯文本 — 剥离 HTML 标签还原可读纯文本。"
+ },
+ "htpasswd-gen": {
+  "name": "htpasswd {SHA} 口令条目生成器",
+  "category": "密码与安全",
+  "summary": "htpasswd {SHA} 口令条目生成器（Apache 兼容）。"
+ },
+ "http-date": {
+  "name": "HTTP 日期",
+  "category": "日期与日历",
+  "summary": "HTTP 日期（RFC 7231）解析与生成。"
+ },
+ "http-digest-auth": {
+  "name": "HTTP Digest 认证计算器",
+  "category": "密码与安全",
+  "summary": "HTTP Digest 认证计算器（RFC 2617，兼容 SHA-256 / *-sess 变体）。"
+ },
+ "icc-profile-info": {
+  "name": "解析 ICC 颜色配置文件头",
+  "category": "图片与媒体",
+  "summary": "icc-profile-info —— 解析 ICC 颜色配置文件头"
+ },
+ "iching-cast": {
+  "name": "六爻起卦",
+  "category": "趣味生成",
+  "summary": "六爻起卦 —— 模拟三枚铜钱起卦，输出卦名与白话断语。"
+ },
+ "icns-entry-list": {
+  "name": "ICNS 条目列表器",
+  "category": "图片与媒体",
+  "summary": "ICNS 条目列表器(icns-entry-list) —— 解析 ICNS 图标包目录，列出每种内嵌图标类型代码与像素尺寸。"
+ },
+ "ico-corrupt-scan": {
+  "name": "ICO 完整性扫描",
+  "category": "图片与媒体",
+  "summary": "ICO 完整性扫描 —— 校验每个目录项声明的尺寸、位深与实际内嵌位图数据是否自洽。"
+ },
+ "ico-entry-list": {
+  "name": "ICO 条目列表",
+  "category": "图片与媒体",
+  "summary": "ICO 条目列表 —— 解析 ICO/CUR 文件目录, 列出每个内嵌图标的宽高、颜色数与字节偏移。"
+ },
+ "icon-size-audit": {
+  "name": "图标尺寸集审计",
+  "category": "图片与媒体",
+  "summary": "图标尺寸集审计 (icon-size-audit) —— 检查一组图标是否包含 16/32/48/64/256 等标准尺寸，列出缺失与多余。"
+ },
+ "ics-generate": {
+  "name": "iCal 事件生成",
+  "category": "日期与日历",
+  "summary": "iCal 事件生成 —— 从命令行参数生成含 VEVENT 的 .ics 日历文件。"
+ },
+ "ics-merge": {
+  "name": "日历文件合并",
+  "category": "日期与日历",
+  "summary": "日历文件合并 —— 合并多个 .ics 文件并按 UID 去重输出单一日历。"
+ },
+ "ics-parse": {
+  "name": "iCal 文件解析",
+  "category": "日期与日历",
+  "summary": "iCal 文件解析 —— 解析 .ics（iCalendar）文件，列出事件时间与摘要。"
+ },
+ "ics-rrule": {
+  "name": "重复事件展开",
+  "category": "日期与日历",
+  "summary": "重复事件展开 —— 解析 .ics 中的 RRULE 规则并展开为具体日期实例。"
+ },
+ "ics2csv": {
+  "name": "日历导出 CSV",
+  "category": "日期与日历",
+  "summary": "日历导出 CSV (ics2csv) —— 解析 iCalendar (.ics) 文件中的 VEVENT，"
+ },
+ "image-dup-dimension": {
+  "name": "同尺寸图片查找器",
+  "category": "图片与媒体",
+  "summary": "同尺寸图片查找器（image-dup-dimension）"
+ },
+ "img-batch-resize-plan": {
+  "name": "批量缩放方案生成器",
+  "category": "图片与媒体",
+  "summary": "批量缩放方案生成器（img-batch-resize-plan）。"
+ },
+ "img-canvas-calc": {
+  "name": "拼贴画布计算",
+  "category": "图片与媒体",
+  "summary": "拼贴画布计算 — 给定一批图片与列数，计算紧凑网格拼贴所需的总画布尺寸与每张摆放坐标。"
+ },
+ "img-csv-export": {
+  "name": "图片元数据 CSV 导出",
+  "category": "图片与媒体",
+  "summary": "图片元数据 CSV 导出（img-csv-export）。"
+ },
+ "img-dir-diff": {
+  "name": "目录尺寸差异对比",
+  "category": "图片与媒体",
+  "summary": "目录尺寸差异对比（img-dir-diff）。"
+ },
+ "img-dir-report": {
+  "name": "目录图片报表",
+  "category": "图片与媒体",
+  "summary": "目录图片报表（img-dir-report）。"
+ },
+ "img-dup-dims": {
+  "name": "同尺寸疑似重复检测",
+  "category": "图片与媒体",
+  "summary": "同尺寸疑似重复检测 —— 找出宽高与文件大小完全相同的疑似重复图片组。"
+ },
+ "img-exif-strip-report": {
+  "name": "可剥离元数据报告",
+  "category": "图片与媒体",
+  "summary": "可剥离元数据报告 — 统计每张图片含多少可剥离的元数据字节（EXIF/XMP/注释），输出隐私清理收益预估。"
+ },
+ "img-filter-dims": {
+  "name": "尺寸条件筛选",
+  "category": "图片与媒体",
+  "summary": "尺寸条件筛选 — 按最小/最大宽高条件筛选并列出符合条件的图片。"
+ },
+ "img-filter-ratio": {
+  "name": "比例条件筛选",
+  "category": "图片与媒体",
+  "summary": "比例条件筛选 —— 按宽高比 (ratio = 宽/高) 区间筛选目录中的图片。"
+ },
+ "img-find-largest": {
+  "name": "最大图片查找",
+  "category": "图片与媒体",
+  "summary": "最大图片查找 — 按像素面积降序列出目录中前 N 张最大的图片。"
+ },
+ "img-find-smallest": {
+  "name": "最小图片查找",
+  "category": "图片与媒体",
+  "summary": "最小图片查找 — 按像素面积升序列出前 N 张最小的图片，用于排查占位图与坏图。"
+ },
+ "img-format-id": {
+  "name": "仅凭文件头魔数识别图片格式",
+  "category": "图片与媒体",
+  "summary": "img-format-id —— 仅凭文件头魔数识别图片格式,并给出命中字节依据。"
+ },
+ "img-info-all": {
+  "name": "单图全景信息",
+  "category": "图片与媒体",
+  "summary": "img-info-all.py —— 单图全景信息（仅用 Python 标准库）。"
+ },
+ "img-json-export": {
+  "name": "图片元数据 JSON 导出",
+  "category": "图片与媒体",
+  "summary": "图片元数据 JSON 导出（img-json-export）。"
+ },
+ "img-magic-vs-ext": {
+  "name": "魔数与扩展名核对",
+  "category": "图片与媒体",
+  "summary": "魔数与扩展名核对 —— 批量核对图片扩展名与真实魔数, 报告被改名/伪装的文件。"
+ },
+ "img-markdown-table": {
+  "name": "图片清单 Markdown 表",
+  "category": "图片与媒体",
+  "summary": "图片清单 Markdown 表 — 生成含尺寸与文件大小的 Markdown 表格。"
+ },
+ "img-name-parse": {
+  "name": "文件名尺寸核对",
+  "category": "图片与媒体",
+  "summary": "文件名尺寸核对 — 从文件名解析 WxH 标注并与真实头部尺寸比对，找出标注不符的下载图片。"
+ },
+ "img-outlier-dims": {
+  "name": "离群尺寸检测",
+  "category": "图片与媒体",
+  "summary": "离群尺寸检测 —— 统计目录中的主流图片尺寸, 标出与多数不同的离群图片。"
+ },
+ "img-rename-dims": {
+  "name": "把图片重命名为 原名-WxH 形式",
+  "category": "图片与媒体",
+  "summary": "img-rename-dims —— 把图片重命名为 原名-WxH 形式（默认 dry-run 预览）。"
+ },
+ "img-rename-exif-date": {
+  "name": "依据 EXIF 拍摄时间改名为 IMG_20240101_123456 式",
+  "category": "图片与媒体",
+  "summary": "img-rename-exif-date —— 依据 EXIF 拍摄时间改名为 IMG_20240101_123456 式。"
+ },
+ "img-res-match": {
+  "name": "分辨率精确匹配",
+  "category": "图片与媒体",
+  "summary": "分辨率精确匹配 —— 找出与指定分辨率完全一致（或仅差旋转）的所有图片文件。"
+ },
+ "img-size-probe": {
+  "name": "万能图片尺寸探测",
+  "category": "图片与媒体",
+  "summary": "img-size-probe —— 万能图片尺寸探测(imghdr 被移除后的现代替代)。"
+ },
+ "img-sort-by-date": {
+  "name": "输出按 yyyy/yyyy-mm 目录归置照片的 mv 命令清单",
+  "category": "图片与媒体",
+  "summary": "img-sort-by-date —— 输出按 yyyy/yyyy-mm 目录归置照片的 mv 命令清单（默认不执行）。"
+ },
+ "img-sort-by-dims": {
+  "name": "按尺寸档位生成图片归类移动方案",
+  "category": "图片与媒体",
+  "summary": "按尺寸档位生成图片归类移动方案（img-sort-by-dims / 按尺寸档归类）。"
+ },
+ "img-summary-stats": {
+  "name": "图片目录统计",
+  "category": "图片与媒体",
+  "summary": "图片目录统计 —— 输出目录汇总: 文件数、格式分布、平均/最大尺寸、总字节数。"
+ },
+ "img-timeline": {
+  "name": "照片时间线",
+  "category": "图片与媒体",
+  "summary": "照片时间线 — 按 EXIF 拍摄月份统计，并用终端 ASCII 柱状图展示各月数量。"
+ },
+ "img-tree-list": {
+  "name": "图片树状列表",
+  "category": "图片与媒体",
+  "summary": "图片树状列表 — 以树形结构列出目录及子目录中每张图片的尺寸标注。"
+ },
+ "import-counter": {
+  "name": "依赖引入统计",
+  "category": "开发助手",
+  "summary": "依赖引入统计 (import-counter)。"
+ },
+ "indent-convert": {
+  "name": "缩进转换",
+  "category": "文本处理",
+  "summary": "缩进转换(indent-convert)"
+ },
+ "indent-normalize": {
+  "name": "中文段首缩进规范工具",
+  "category": "中文本地化",
+  "summary": "indent-normalize.py — 中文段首缩进规范工具。"
+ },
+ "indent-style-report": {
+  "name": "缩进风格体检",
+  "category": "开发助手",
+  "summary": "缩进风格体检（indent-style-report）"
+ },
+ "ini-json-convert": {
+  "name": "INI 与 JSON 互转",
+  "category": "数据转换",
+  "summary": "INI 与 JSON 互转 —— 用 configparser 在 INI 配置文件与 JSON 之间双向转换，保留节结构。"
+ },
+ "ini2json": {
+  "name": "INI 转 JSON",
+  "category": "数据转换",
+  "summary": "INI 转 JSON：用 configparser 读取 INI 配置并带类型推断输出为 JSON。"
+ },
+ "invisible-chars-show": {
+  "name": "不可见字符可视化工具",
+  "category": "文本处理",
+  "summary": "invisible-chars-show.py — 不可见字符可视化工具。"
+ },
+ "invisible-scan": {
+  "name": "不可见字符扫描",
+  "category": "文本处理",
+  "summary": "不可见字符扫描(invisible-scan)"
+ },
+ "islamic-calendar": {
+  "name": "伊斯兰历换算",
+  "category": "日期与日历",
+  "summary": "伊斯兰历换算：公历与 tabular（算术）伊斯兰历互转，标注圣月与斋月开始日期估算。"
+ },
+ "iso-week": {
+  "name": "ISO 周号查询",
+  "category": "日期与日历",
+  "summary": "ISO 周号查询 —— 查询日期所属的 ISO 年/周/星期, 或由年+周号反查该周日期区间。"
+ },
+ "iso8601-fix": {
+  "name": "ISO 8601 宽松解析与规范化",
+  "category": "日期与日历",
+  "summary": "ISO 8601 宽松解析与规范化。"
+ },
+ "join-split-parts": {
+  "name": "按序合并分卷文件还原原始文件",
+  "category": "文件与目录",
+  "summary": "按序合并分卷文件还原原始文件，可选校验清单中的 SHA-256。"
+ },
+ "joke-box": {
+  "name": "冷笑话盲盒",
+  "category": "趣味生成",
+  "summary": "冷笑话盲盒 (joke-box)。"
+ },
+ "jp2-size-read": {
+  "name": "JPEG2000 尺寸读取器",
+  "category": "图片与媒体",
+  "summary": "JPEG2000 尺寸读取器(jp2-size-read) —— 解析 JP2 盒结构或裸码流的 SIZ 段，输出宽高与分量数。"
+ },
+ "jpeg-app-audit": {
+  "name": "识别 JPEG 各 APPn 段的归属及其占用字节",
+  "category": "图片与媒体",
+  "summary": "jpeg-app-audit —— 识别 JPEG 各 APPn 段的归属及其占用字节。"
+ },
+ "jpeg-comment-extract": {
+  "name": "提取 JPEG COM 段中的注释文本",
+  "category": "图片与媒体",
+  "summary": "jpeg-comment-extract —— 提取 JPEG COM 段中的注释文本, 多条逐一列出。"
+ },
+ "jpeg-eoi-check": {
+  "name": "JPEG EOI 检查",
+  "category": "图片与媒体",
+  "summary": "JPEG EOI 检查 —— 验证 JPEG 是否以 EOI 结尾、扫描数据是否连续、其后有无多余字节。"
+ },
+ "jpeg-marker-map": {
+  "name": "按顺序列出 JPEG 全部标记段的偏移与长度",
+  "category": "图片与媒体",
+  "summary": "jpeg-marker-map —— 按顺序列出 JPEG 全部标记段的偏移与长度。"
+ },
+ "jpeg-quant-tables": {
+  "name": "JPEG 量化表报告",
+  "category": "图片与媒体",
+  "summary": "JPEG 量化表报告 - 转储 DQT 量化表并按 IJG 标准公式估算压缩质量。"
+ },
+ "jpeg-sof-scan": {
+  "name": "JPEG SOF 扫描",
+  "category": "图片与媒体",
+  "summary": "JPEG SOF 扫描 —— 遍历 JPEG 段(segment), 定位 SOF0–SOF15 帧头标记。"
+ },
+ "json-deep-diff": {
+  "name": "JSON 深度对比工具",
+  "category": "数据转换",
+  "summary": "json-deep-diff.py —— JSON 深度对比工具（仅用 Python 标准库）。"
+ },
+ "json-flatten": {
+  "name": "JSON 展平还原器",
+  "category": "数据转换",
+  "summary": "JSON 展平还原器：嵌套 JSON 与点路径扁平键值对互相转换，便于填表或 diff。"
+ },
+ "json-format": {
+  "name": "JSON 格式化与压缩",
+  "category": "数据转换",
+  "summary": "JSON 格式化与压缩。"
+ },
+ "json-log-pretty": {
+  "name": "JSON日志美化",
+  "category": "数据转换",
+  "summary": "JSON日志美化 — 逐行解析 JSON 日志(JSONL), 格式化输出, 支持字段筛选与排序。"
+ },
+ "json-point-query": {
+  "name": "点路径 JSON 查询",
+  "category": "数据转换",
+  "summary": "点路径 JSON 查询：用 a.b.0.c 风格路径与简易过滤条件从 JSON 中取值或切片输出。"
+ },
+ "json-records2csv": {
+  "name": "记录数组转 CSV",
+  "category": "数据转换",
+  "summary": "记录数组转 CSV (json-records2csv) —— 把 JSON 数组中的同构对象"
+ },
+ "json-shape-infer": {
+  "name": "JSON 结构推断",
+  "category": "数据转换",
+  "summary": "JSON 结构推断：扫描 JSON / JSONL 集合推断字段类型、可选性与嵌套结构摘要。"
+ },
+ "json-to-csv": {
+  "name": "JSON 转 CSV",
+  "category": "数据转换",
+  "summary": "JSON 转 CSV。"
+ },
+ "json-to-xml": {
+  "name": "JSON 转 XML",
+  "category": "数据转换",
+  "summary": "JSON 转 XML —— 把 JSON 对象序列化为 XML 元素树，支持指定根元素名与数组重复元素。"
+ },
+ "json2csv-flat": {
+  "name": "JSON 转 CSV",
+  "category": "数据转换",
+  "summary": "JSON 转 CSV：把 JSON 对象数组转成 CSV，自动收集所有键作表头。"
+ },
+ "json2env": {
+  "name": "把扁平 JSON 转成 KEY=VALUE 环境变量文件",
+  "category": "数据转换",
+  "summary": "json2env —— 把扁平 JSON 转成 KEY=VALUE 环境变量文件。"
+ },
+ "json2yaml-lite": {
+  "name": "JSON 转 YAML",
+  "category": "数据转换",
+  "summary": "JSON 转 YAML（子集）：纯标准库手写的序列化器。"
+ },
+ "jsonl-convert": {
+  "name": "JSONL 与 JSON 数组互转",
+  "category": "数据转换",
+  "summary": "JSONL 与 JSON 数组互转。"
+ },
+ "jsonl-merge": {
+  "name": "合并多个 JSONL 文件",
+  "category": "数据转换",
+  "summary": "jsonl-merge —— 合并多个 JSONL 文件,可按字段排序、可选去重。"
+ },
+ "jsonl2csv-stream": {
+  "name": "逐行流式地把 JSON Lines 转成 CSV",
+  "category": "数据转换",
+  "summary": "jsonl2csv-stream —— 逐行流式地把 JSON Lines 转成 CSV(纯标准库, 常数内存)。"
+ },
+ "jsonl2csv": {
+  "name": "JSONL 转 CSV",
+  "category": "数据转换",
+  "summary": "JSONL 转 CSV：合并 JSONL 各对象的全部键为列，把行式 JSON 转成 CSV 表格。"
+ },
+ "jsonl2yamldoc": {
+  "name": "JSON Lines 与 “--- 分隔的 YAML 多文档流”双向转换",
+  "category": "数据转换",
+  "summary": "jsonl2yamldoc —— JSON Lines 与 “--- 分隔的 YAML 多文档流”双向转换(纯标准库)。"
+ },
+ "julian-calendar": {
+  "name": "儒略历日期换算",
+  "category": "日期与日历",
+  "summary": "儒略历日期换算：公历（格里历）与儒略历日期互转，用于历史事件日期对照。"
+ },
+ "julian-day": {
+  "name": "儒略日换算",
+  "category": "日期与日历",
+  "summary": "儒略日换算：公历日期（可带时刻）与儒略日 JD / 简化儒略日 MJD 双向换算。"
+ },
+ "junk-file-finder": {
+  "name": "垃圾文件查找器",
+  "category": "文件与目录",
+  "summary": "垃圾文件查找器（junk-file-finder）。"
+ },
+ "jwt-expiry": {
+  "name": "JWT 过期时间解析",
+  "category": "密码与安全",
+  "summary": "JWT 过期时间解析（jwt-expiry）。"
+ },
+ "jwt-hs256": {
+  "name": "HS256 JWT 签发 / 校验 / 过期检查",
+  "category": "密码与安全",
+  "summary": "HS256 JWT 签发 / 校验 / 过期检查（纯标准库：hmac + base64url + json）。"
+ },
+ "kaomoji-random": {
+  "name": "颜文字抽签",
+  "category": "趣味生成",
+  "summary": "颜文字抽签（kaomoji-random）—— 按心情随机抽取颜文字。"
+ },
+ "kdf-derive-site": {
+  "name": "站点密码派生器",
+  "category": "密码与安全",
+  "summary": "kdf-derive-site -- 站点密码派生器：由主口令+站点名派生各站点独立密码（本地计算，不出网）。"
+ },
+ "keyfile-gen": {
+  "name": "随机密钥文件",
+  "category": "密码与安全",
+  "summary": "随机密钥文件（keyfile）生成器。"
+ },
+ "keyword-redact": {
+  "name": "关键词打码",
+  "category": "密码与安全",
+  "summary": "关键词打码(keyword-redact)"
+ },
+ "kinsoku-fix": {
+  "name": "避头尾自动调整",
+  "category": "中文本地化",
+  "summary": "kinsoku-fix —— 避头尾自动调整：修复折行文本中的禁则问题，输出修订文本。"
+ },
+ "kinsoku-lint": {
+  "name": "避头尾禁则检查",
+  "category": "中文本地化",
+  "summary": "kinsoku-lint —— 避头尾禁则检查：找出禁则字符出现的位置。"
+ },
+ "konami-egg": {
+  "name": "科拿米秘技彩蛋",
+  "category": "趣味生成",
+  "summary": "科拿米秘技彩蛋 —— 监听「上上下下左右左右BA」(Konami Code) 触发彩蛋的演示脚本。"
+ },
+ "lang-loc-split": {
+  "name": "语言占比分析",
+  "category": "其他",
+  "summary": "语言占比分析 (lang-loc-split)。"
+ },
+ "last-weekday": {
+  "name": "月末星期几计算",
+  "category": "日期与日历",
+  "summary": "月末星期几计算（last-weekday）。"
+ },
+ "leap-years": {
+  "name": "闰年判断列举",
+  "category": "日期与日历",
+  "summary": "闰年判断列举:判断某年是否闰年并按规则解释;或列出给定区间内全部闰年。"
+ },
+ "life-milestone": {
+  "name": "里程碑时刻计算",
+  "category": "日期与日历",
+  "summary": "里程碑时刻计算：给定出生日期/时刻，计算第 10000 天、第 10 亿秒等"
+ },
+ "life-progress": {
+  "name": "人生进度可视化",
+  "category": "日期与日历",
+  "summary": "人生进度可视化：按出生日期与预期寿命，把已度过的时间渲染成格子进度图。"
+ },
+ "line-count-stats": {
+  "name": "行数统计器",
+  "category": "文本处理",
+  "summary": "行数统计器（line-count-stats）"
+ },
+ "line-ending-report": {
+  "name": "换行符体检",
+  "category": "文本处理",
+  "summary": "换行符体检（line-ending-report）"
+ },
+ "line-ending-stats": {
+  "name": "换行符统计器",
+  "category": "文本处理",
+  "summary": "line-ending-stats.py —— 换行符统计器"
+ },
+ "line-move-detect": {
+  "name": "移动行识别",
+  "category": "文本处理",
+  "summary": "移动行识别 (line-move-detect)。"
+ },
+ "line-numbers": {
+  "name": "行号增删",
+  "category": "文本处理",
+  "summary": "行号增删 (line-numbers): 给文本行添加可配置格式的行号前缀，或反向剥离已有行号。"
+ },
+ "lineset-ops": {
+  "name": "行集合运算",
+  "category": "文本处理",
+  "summary": "行集合运算：对两个文件做行级交/并/差/对称差，无需预排序（用集合/计数实现）。"
+ },
+ "list-picker": {
+  "name": "名单抽人",
+  "category": "趣味生成",
+  "summary": "名单抽人 —— 从参数或文件名单中随机抽取一人/多人, 已抽者自动移出池。"
+ },
+ "loc-barchart": {
+  "name": "行数条形图",
+  "category": "开发助手",
+  "summary": "行数条形图 (loc-barchart) —— 在终端用 ASCII 条形图可视化各目录/文件的行数分布。"
+ },
+ "loc-counter": {
+  "name": "多语言行数统计器",
+  "category": "开发助手",
+  "summary": "多语言行数统计器 (loc-counter)。"
+ },
+ "locale-timezone-info": {
+  "name": "区域与时区信息",
+  "category": "日期与日历",
+  "summary": "区域与时区信息（locale-timezone-info）。"
+ },
+ "log-anonymize": {
+  "name": "日志脱敏",
+  "category": "开发助手",
+  "summary": "日志脱敏 — 用正则替换日志中的手机号、邮箱、身份证号、IPv4 等敏感字段。"
+ },
+ "log-colorizer": {
+  "name": "日志着色器",
+  "category": "开发助手",
+  "summary": "日志着色器 (log-colorizer): 按级别和自定义正则给日志行加 ANSI 颜色后输出。"
+ },
+ "log-context-window": {
+  "name": "日志上下文查看",
+  "category": "开发助手",
+  "summary": "日志上下文查看(log-context-window):定位匹配行并展示前后 N 行上下文。"
+ },
+ "log-delta-report": {
+  "name": "日志增量报告",
+  "category": "开发助手",
+  "summary": "日志增量报告 (log-delta-report): 与上次快照对比, 报告新增的错误与警告条目。"
+ },
+ "log-extract": {
+  "name": "日志切片提取",
+  "category": "开发助手",
+  "summary": "log-extract — 日志切片提取。"
+ },
+ "log-follow-filter": {
+  "name": "日志轮询跟踪",
+  "category": "开发助手",
+  "summary": "日志轮询跟踪 —— 类 tail -f：轮询读取日志新增行，按关键字过滤/高亮后输出。"
+ },
+ "log-format-detect": {
+  "name": "日志格式猜测",
+  "category": "开发助手",
+  "summary": "日志格式猜测(log-format-detect):采样日志行,归纳字段布局与正则模板。"
+ },
+ "log-growth-report": {
+  "name": "日志增长报告",
+  "category": "开发助手",
+  "summary": "日志增长报告（log-growth-report）。"
+ },
+ "log-level-stat": {
+  "name": "日志级别统计",
+  "category": "开发助手",
+  "summary": "日志级别统计：统计日志中 INFO/WARN/ERROR 等级别分布与时间跨度，按级别抽样示例行。"
+ },
+ "log-level-stats": {
+  "name": "日志级别统计",
+  "category": "开发助手",
+  "summary": "log-level-stats — 日志级别统计。"
+ },
+ "log-merge-sort": {
+  "name": "多日志归并",
+  "category": "开发助手",
+  "summary": "多日志归并(log-merge-sort):把多个日志文件按时间戳归并成统一时间线。"
+ },
+ "log-noise-filter": {
+  "name": "噪音行过滤",
+  "category": "开发助手",
+  "summary": "噪音行过滤 (log-noise-filter): 统计高频重复行视为噪音并过滤, 突出显示低频的异常日志。"
+ },
+ "log-pivot-report": {
+  "name": "日志透视报表",
+  "category": "开发助手",
+  "summary": "日志透视报表 —— 按两个维度(如 级别×小时)交叉统计日志条数, 输出透视表。"
+ },
+ "log-splitter": {
+  "name": "大日志切分",
+  "category": "开发助手",
+  "summary": "大日志切分 — 按行数或字节大小把大日志文件切成多个带编号的小文件。"
+ },
+ "log-templater": {
+  "name": "日志模式聚合",
+  "category": "开发助手",
+  "summary": "日志模式聚合：把日志中数字/ID/时间归一为模板行，按模板聚合计数找出高频模式。"
+ },
+ "log-time-locate": {
+  "name": "时间点二分定位",
+  "category": "开发助手",
+  "summary": "时间点二分定位 — 利用日志时间戳的有序性, 二分查找某时刻在(大)日志文件中的位置。"
+ },
+ "log-time-range": {
+  "name": "日志时间跨度",
+  "category": "开发助手",
+  "summary": "log-time-range — 日志时间跨度。"
+ },
+ "log-timeline-buckets": {
+  "name": "日志时间线",
+  "category": "开发助手",
+  "summary": "log-timeline-buckets — 日志时间线。"
+ },
+ "log-to-csv": {
+  "name": "日志转CSV",
+  "category": "数据转换",
+  "summary": "日志转CSV — 按可配置的行格式把日志解析成字段, 导出 CSV 或 JSON Lines(NDJSON)。"
+ },
+ "log-tz-fixer": {
+  "name": "日志时间时区修复",
+  "category": "开发助手",
+  "summary": "日志时间时区修复（log-tz-fixer）：为日志文件中缺时区的时间戳补上指定时区并转换为 UTC。"
+ },
+ "log-vs-log-diff": {
+  "name": "日志对比",
+  "category": "开发助手",
+  "summary": "日志对比 —— 比较两份日志的级别分布与错误模板集合差异，报告新增/消失的错误。"
+ },
+ "log2csv": {
+  "name": "访问日志转 CSV",
+  "category": "数据转换",
+  "summary": "访问日志转 CSV (log2csv)。"
+ },
+ "long-line-finder": {
+  "name": "超长行定位",
+  "category": "文本处理",
+  "summary": "超长行定位（long-line-finder）"
+ },
+ "long-path-finder": {
+  "name": "超长路径查找器",
+  "category": "文件与目录",
+  "summary": "超长路径查找器（long-path-finder）"
+ },
+ "long-weekend": {
+  "name": "长周末发现器",
+  "category": "日期与日历",
+  "summary": "长周末发现器（long-weekend）——扫描某年找出所有 3 天及以上的连休长周末。"
+ },
+ "longline-lint": {
+  "name": "超长行检查",
+  "category": "文本处理",
+  "summary": "超长行检查：找出超过列宽阈值的行并报告位置，支持按显示宽度计算中文。"
+ },
+ "lorem-zh": {
+  "name": "中文废话文学",
+  "category": "趣味生成",
+  "summary": "中文废话文学 —— 生成“听君一席话，如听一席话”式的废话段落。"
+ },
+ "lucky-numbers": {
+  "name": "幸运号码机",
+  "category": "趣味生成",
+  "summary": "幸运号码机 —— 模拟双色球/大乐透摇号，可锁定已选号、只重摇其余位置。"
+ },
+ "lunar-solar": {
+  "name": "公农历互转",
+  "category": "日期与日历",
+  "summary": "公农历互转（纯标准库实现）。"
+ },
+ "lunch-roulette": {
+  "name": "今日吃啥",
+  "category": "趣味生成",
+  "summary": "今日吃啥（lunch-roulette）：内置/自定义餐厅清单，滚动动画停下后宣布你命定的那家。"
+ },
+ "mad-libs": {
+  "name": "疯狂填词",
+  "category": "趣味生成",
+  "summary": "疯狂填词 —— 按提示输入名词、动词等词，填进模板生成爆笑短文。"
+ },
+ "magic-8ball": {
+  "name": "神奇预言球",
+  "category": "趣味生成",
+  "summary": "神奇预言球 —— 问一个是非问题，从 20 条经典 Magic 8-Ball 神谕中随机抽出一条回答你。"
+ },
+ "magic-number-scan": {
+  "name": "魔法数字扫描",
+  "category": "开发助手",
+  "summary": "魔法数字扫描 (magic-number-scan) —— 找出代码中未命名的大数值字面量。"
+ },
+ "magic-type-classifier": {
+  "name": "魔数类型识别器",
+  "category": "文件与目录",
+  "summary": "魔数类型识别器（magic-type-classifier）"
+ },
+ "maintenance-window": {
+  "name": "维护窗口推算",
+  "category": "日期与日历",
+  "summary": "维护窗口推算（maintenance-window）——按周几+时刻的窗口规则推算下一次及未来若干次维护窗口。"
+ },
+ "mandelbrot-ascii": {
+  "name": "曼德博画卷",
+  "category": "趣味生成",
+  "summary": "曼德博画卷（mandelbrot-ascii）—— 在终端打印曼德博集合字符画。"
+ },
+ "manifest-check": {
+  "name": "用 manifest.json 清单核验目录完整性",
+  "category": "文件与目录",
+  "summary": "manifest-check.py -- 用 manifest.json 清单核验目录完整性。"
+ },
+ "manifest-verify": {
+  "name": "指纹清单校验器",
+  "category": "编码与哈希",
+  "summary": "指纹清单校验器（manifest-verify）。"
+ },
+ "markdown-cn-lint": {
+  "name": "中文 Markdown 排版检查",
+  "category": "中文本地化",
+  "summary": "中文 Markdown 排版检查 — 按《中文文案排版指北》检查 Markdown，输出违规清单。"
+ },
+ "marker-freq-report": {
+  "name": "标记频次报表",
+  "category": "开发助手",
+  "summary": "标记频次报表（marker-freq-report）——统计各类注解标记在仓库中的出现频次。"
+ },
+ "markov-chat": {
+  "name": "马尔可夫复读机",
+  "category": "趣味生成",
+  "summary": "马尔可夫复读机 —— 读取本地文本训练二阶马尔可夫链，生成模仿句子。"
+ },
+ "matrix-rain": {
+  "name": "黑客帝国风格的绿色字符雨终端动画",
+  "category": "趣味生成",
+  "summary": "matrix-rain（字符雨）—— 黑客帝国风格的绿色字符雨终端动画，Ctrl+C 退出。"
+ },
+ "max-depth-limit-check": {
+  "name": "深度与数量告警",
+  "category": "文件与目录",
+  "summary": "深度与数量告警（max-depth-limit-check）。"
+ },
+ "mayan-calendar": {
+  "name": "玛雅长纪历换算",
+  "category": "日期与日历",
+  "summary": "玛雅长纪历换算（纯标准库实现）。"
+ },
+ "maze-printer": {
+  "name": "迷宫印刷机",
+  "category": "趣味生成",
+  "summary": "迷宫印刷机 —— 随机生成可解迷宫并打印，--solve 可叠加显示解答路径。"
+ },
+ "mbti-random": {
+  "name": "MBTI 扭蛋机",
+  "category": "趣味生成",
+  "summary": "MBTI 扭蛋机 —— 随机抽一个人格类型并附搞笑人设解读。"
+ },
+ "md-frontmatter": {
+  "name": "Markdown 前置元数据",
+  "category": "文本处理",
+  "summary": "Markdown 前置元数据（YAML frontmatter）解析 / 校验 / 修改。"
+ },
+ "md-table-to-csv": {
+  "name": "Markdown 表格转 CSV",
+  "category": "数据转换",
+  "summary": "Markdown 表格转 CSV —— 解析 Markdown 文档中的表格行，还原为标准 CSV 文件。"
+ },
+ "md-to-html": {
+  "name": "Markdown 转 HTML",
+  "category": "数据转换",
+  "summary": "Markdown 转 HTML（自实现基础版）。"
+ },
+ "md-toc": {
+  "name": "Markdown 目录",
+  "category": "文本处理",
+  "summary": "Markdown 目录（TOC）生成：扫描标题层级，生成带锚点链接的目录，可插入指定位置。"
+ },
+ "md2html": {
+  "name": "Markdown 转 HTML",
+  "category": "数据转换",
+  "summary": "Markdown 转 HTML — 轻量 Markdown 到 HTML 的转换器。"
+ },
+ "mdtable2csv": {
+  "name": "Markdown 表格转 CSV",
+  "category": "数据转换",
+  "summary": "Markdown 表格转 CSV — 解析 Markdown 文档中的表格块并导出为 CSV 文件。"
+ },
+ "media-inventory": {
+  "name": "媒体文件清单",
+  "category": "图片与媒体",
+  "summary": "媒体文件清单（media-inventory）—— 按类别统计媒体库概况。"
+ },
+ "meeting-planner": {
+  "name": "跨国会议对照表",
+  "category": "效率办公",
+  "summary": "跨国会议对照表（meeting-planner）"
+ },
+ "meeting-slot": {
+  "name": "共同空闲段搜索",
+  "category": "效率办公",
+  "summary": "共同空闲段搜索（meeting-slot）"
+ },
+ "megapixel-report": {
+  "name": "像素量报告",
+  "category": "图片与媒体",
+  "summary": "像素量报告（megapixel-report）——像素总数、百万像素与未压缩内存估算。"
+ },
+ "memorable-id": {
+  "name": "可读 ID 生成",
+  "category": "开发助手",
+  "summary": "可读 ID 生成 —— 生成 形容词-名词-数字 形式的非敏感可读标识符, 带反查碰撞计数。"
+ },
+ "memory-report": {
+  "name": "内存信息报告",
+  "category": "网络与系统",
+  "summary": "内存信息报告 (memory-report) —— 查询物理内存总量与可用量，跨平台输出。"
+ },
+ "merge-columns": {
+  "name": "逐行列拼接",
+  "category": "文本处理",
+  "summary": "逐行列拼接（列合并）工具。"
+ },
+ "merge-csv": {
+  "name": "CSV 合并",
+  "category": "数据转换",
+  "summary": "CSV 合并：合并多个同构 CSV，对齐并去重表头，支持整行去重与来源文件名列。"
+ },
+ "merge-interleave": {
+  "name": "交错合并",
+  "category": "文本处理",
+  "summary": "交错合并：把多个文件的行按轮转方式交错合并（每文件取一行轮转），支持按分隔符并排。"
+ },
+ "merge-jsonl": {
+  "name": "JSONL 合并",
+  "category": "数据转换",
+  "summary": "JSONL 合并：把多个 JSON Lines 文件合并为一个，逐行校验并跳过报告坏行。"
+ },
+ "merge-sorted": {
+  "name": "有序归并",
+  "category": "文本处理",
+  "summary": "有序归并：把多个已排序文本文件用堆归并为单个有序大文件（外部归并，内存友好）。"
+ },
+ "merge-text-files": {
+  "name": "文本文件合并",
+  "category": "文本处理",
+  "summary": "文本文件合并 (merge-text-files)"
+ },
+ "mirror-dirs": {
+  "name": "目录镜像同步",
+  "category": "文件与目录",
+  "summary": "目录镜像同步：使目标目录与源目录完全一致（复制新增与变更、删除多余文件），默认预演。"
+ },
+ "mixed-script-lint": {
+  "name": "简繁混用检测",
+  "category": "中文本地化",
+  "summary": "mixed-script-lint —— 简繁混用检测"
+ },
+ "mojibake-fixer": {
+  "name": "乱码修复器",
+  "category": "编码与哈希",
+  "summary": "乱码修复器 - 对疑似乱码文本尝试多种往返重编码组合并推荐最优解。"
+ },
+ "mojibake-repair": {
+  "name": "乱码修复还原",
+  "category": "编码与哈希",
+  "summary": "乱码修复还原 — 自动尝试常见「错误解码链」，还原被错解码的中文乱码文本。"
+ },
+ "month-length": {
+  "name": "月天数查询",
+  "category": "日期与日历",
+  "summary": "月天数查询:输出某年某月的天数与月末日期;也可列出全年各月天数一览。"
+ },
+ "month-workdays": {
+  "name": "月度工作日统计",
+  "category": "日期与日历",
+  "summary": "月度工作日统计 —— 统计某年 1-12 月各月的工作日天数，并给出每月最后"
+ },
+ "moon-phase": {
+  "name": "月相计算器",
+  "category": "日期与日历",
+  "summary": "月相计算器（纯标准库实现）。"
+ },
+ "morse-code": {
+  "name": "摩斯电码互转",
+  "category": "数据转换",
+  "summary": "摩斯电码互转：拉丁字母数字与摩斯电码之间双向转换。"
+ },
+ "mount-table": {
+  "name": "挂载点信息表",
+  "category": "网络与系统",
+  "summary": "mount-table — 挂载点信息表。"
+ },
+ "move-by-date": {
+  "name": "按日期归档",
+  "category": "文件与目录",
+  "summary": "按日期归档：把文件按修改时间移动到 年/月 分层目录，模板可配。"
+ },
+ "move-by-ext": {
+  "name": "按扩展名归类",
+  "category": "文件与目录",
+  "summary": "按扩展名归类：把目录中的文件移动到以其扩展名命名的子目录（如 jpg/、pdf/）。"
+ },
+ "mtime-rename": {
+  "name": "时间戳重命名",
+  "category": "文件与目录",
+  "summary": "时间戳重命名 (mtime-rename)"
+ },
+ "multi-pattern-grep": {
+  "name": "多模式 AND / OR / NOT 组合过滤搜索",
+  "category": "文本处理",
+  "summary": "multi-pattern-grep —— 多模式 AND / OR / NOT 组合过滤搜索。"
+ },
+ "naming-hygiene": {
+  "name": "命名卫生检查器 / naming-hygiene",
+  "category": "文件与目录",
+  "summary": "命名卫生检查器 / naming-hygiene"
+ },
+ "nanoid-tool": {
+  "name": "纯 Python 标准库实现的 NanoID 短随机 ID 生成器",
+  "category": "开发助手",
+  "summary": "nanoid-tool.py -- 纯 Python 标准库实现的 NanoID 短随机 ID 生成器。"
+ },
+ "natural-parse": {
+  "name": "自然语言日期解析",
+  "category": "日期与日历",
+  "summary": "自然语言日期解析（natural-parse）：解析\"明天下午3点\"\"下周五\"\"三天后\"等中文相对日期表达为具体时刻。"
+ },
+ "near-dup-text": {
+  "name": "近似重复文本检测",
+  "category": "文本处理",
+  "summary": "近似重复文本检测 (near-dup-text) —— 提取文本特征并用 difflib 找高度相似文档。"
+ },
+ "near-dupe": {
+  "name": "近似重复检测",
+  "category": "文本处理",
+  "summary": "近似重复检测（near-dupe）——用 difflib 序列相似度找出文本中内容高度相近的行对。"
+ },
+ "newline-convert": {
+  "name": "换行符转换",
+  "category": "文本处理",
+  "summary": "newline-convert 换行符转换：在 LF、CRLF、CR 三种换行风格之间批量转换文本文件。"
+ },
+ "nfc-nfd-convert": {
+  "name": "Unicode 归一化转换",
+  "category": "编码与哈希",
+  "summary": "Unicode 归一化转换 —— 对文件正文做 NFC/NFD/NFKC/NFKD 归一化。"
+ },
+ "ngram-count": {
+  "name": "N-gram 计数",
+  "category": "文本处理",
+  "summary": "N-gram 计数（ngram-count）：对文本生成字符级或词级 N-gram 并按频次排序输出。"
+ },
+ "non-ascii-names": {
+  "name": "非 ASCII 文件名清单 / non-ascii-names",
+  "category": "文件与目录",
+  "summary": "非 ASCII 文件名清单 / non-ascii-names"
+ },
+ "nth-weekday": {
+  "name": "第 N 个星期几计算",
+  "category": "日期与日历",
+  "summary": "第 N 个星期几计算（nth-weekday）。"
+ },
+ "ntp-offset": {
+  "name": "NTP 时钟对时",
+  "category": "网络与系统",
+  "summary": "NTP 时钟对时：向 NTP 服务器发送 SNTP 请求，测算本地时钟偏差，"
+ },
+ "num2cn": {
+  "name": "数字转中文",
+  "category": "中文本地化",
+  "summary": "数字转中文 (num2cn)"
+ },
+ "number-to-hanzi": {
+  "name": "数字转中文小写",
+  "category": "中文本地化",
+  "summary": "数字转中文小写（单文件，仅 Python 标准库）。"
+ },
+ "numbering-insert-rename": {
+  "name": "定位置插入序号",
+  "category": "文件与目录",
+  "summary": "定位置插入序号 (numbering-insert-rename)"
+ },
+ "omikuji": {
+  "name": "御神签",
+  "category": "趣味生成",
+  "summary": "御神签 —— 日本神社式大凶至大吉抽签，附签诗与解读。"
+ },
+ "one-sim-many-trad": {
+  "name": "一简对多繁检测",
+  "category": "中文本地化",
+  "summary": "一简对多繁检测：找出文本中一简对多繁的敏感字并输出上下文。"
+ },
+ "ordinal-hanzi": {
+  "name": "序号转中文序数",
+  "category": "中文本地化",
+  "summary": "序号转中文序数（ordinal-hanzi）。"
+ },
+ "otp-code-list": {
+  "name": "一次性口令清单",
+  "category": "密码与安全",
+  "summary": "一次性口令清单 —— 打印一页一次性口令, 每行一条, 行尾带划线位, 用后划掉。"
+ },
+ "otp-pad-tool": {
+  "name": "一次性密码本",
+  "category": "密码与安全",
+  "summary": "一次性密码本 (otp-pad-tool) —— 生成随机 pad 并做严格一次一密加解密."
+ },
+ "otpauth-uri": {
+  "name": "otpauth",
+  "category": "密码与安全",
+  "summary": "otpauth:// 链接与 Google Authenticator 迁移串（otpauth-migration）构建/解析工具。纯标准库。"
+ },
+ "overtime-calc": {
+  "name": "加班时长统计",
+  "category": "效率办公",
+  "summary": "加班时长统计 —— 从上下班打卡记录计算每日超出标准工时的加班时长并汇总。"
+ },
+ "owo-text": {
+  "name": "owo 萌文转换器",
+  "category": "趣味生成",
+  "summary": "owo 萌文转换器（owo-text）。"
+ },
+ "pangu-space-strip": {
+  "name": "中西文空格去除",
+  "category": "中文本地化",
+  "summary": "中西文空格去除（pangu-space-strip）"
+ },
+ "pangu-space": {
+  "name": "盘古之白加空格",
+  "category": "中文本地化",
+  "summary": "盘古之白加空格 (pangu-space)。"
+ },
+ "paragraph-reflow": {
+  "name": "硬换行段落合并",
+  "category": "文本处理",
+  "summary": "paragraph-reflow —— 硬换行段落合并：合并被复制粘贴切断的中文段落。"
+ },
+ "passphrase-gen": {
+  "name": "词组口令生成器",
+  "category": "密码与安全",
+  "summary": "词组口令生成器（Diceware 风格）。"
+ },
+ "password-audit": {
+  "name": "口令清单自审",
+  "category": "密码与安全",
+  "summary": "password-audit -- 口令清单自审：找重复口令、弱口令、与内置常见口令表重合项。"
+ },
+ "password-batch-csv": {
+  "name": "批量密码开表",
+  "category": "密码与安全",
+  "summary": "批量密码开表 —— 为账号清单批量生成密码并导出 CSV, 附强度评分列。"
+ },
+ "password-gen": {
+  "name": "随机密码生成器",
+  "category": "密码与安全",
+  "summary": "随机密码生成器（Python secrets 加密级随机源）。"
+ },
+ "password-rotation-plan": {
+  "name": "密码轮换计划表",
+  "category": "密码与安全",
+  "summary": "密码轮换计划表 (password-rotation-plan)。"
+ },
+ "password-strength-meter": {
+  "name": "口令强度评估",
+  "category": "密码与安全",
+  "summary": "password-strength-meter -- 口令强度评估：熵值、字符空间、暴力穷举时间与可预测模式。"
+ },
+ "paste-lines": {
+  "name": "按行拼接",
+  "category": "文本处理",
+  "summary": "按行拼接：把两个（或多个）文件的第 N 行用分隔符拼成输出的一行。"
+ },
+ "patch-apply-check": {
+  "name": "补丁预检",
+  "category": "开发助手",
+  "summary": "patch-apply-check.py —— 补丁预检：校验 patch 的上下文行能否在目标文件中找到。"
+ },
+ "patch-summary": {
+  "name": "补丁意图摘要",
+  "category": "开发助手",
+  "summary": "patch-summary.py —— 补丁意图摘要：为 diff 中每处改动标注所在函数/区域。"
+ },
+ "path-audit": {
+  "name": "PATH 目录体检",
+  "category": "网络与系统",
+  "summary": "PATH 目录体检 (path-audit) —— 检查 PATH 中不存在的目录、重复项与超长项，给出清理建议。"
+ },
+ "pattern-password": {
+  "name": "模板密码生成器",
+  "category": "密码与安全",
+  "summary": "模板密码生成器（占位符逐位生成）。"
+ },
+ "payday-calc": {
+  "name": "发薪日推算",
+  "category": "日期与日历",
+  "summary": "发薪日推算 —— 按“每月 N 号，遇周末提前/顺延/不调整”或“每月最后一天”"
+ },
+ "pbkdf2-hash": {
+  "name": "生成 PBKDF2-HMAC-SHA256 口令哈希",
+  "category": "密码与安全",
+  "summary": "pbkdf2-hash.py —— 生成 PBKDF2-HMAC-SHA256 口令哈希，迭代次数与盐长度可调。"
+ },
+ "pbkdf2-verify": {
+  "name": "校验明文口令是否匹配 pbkdf2-hash.py 生成的存储哈希",
+  "category": "密码与安全",
+  "summary": "pbkdf2-verify.py —— 校验明文口令是否匹配 pbkdf2-hash.py 生成的存储哈希。"
+ },
+ "pcx-header-read": {
+  "name": "PCX 头读取",
+  "category": "图片与媒体",
+  "summary": "PCX 头读取 —— 解析 PCX（ZSoft PC Paintbrush）128 字节文件头。"
+ },
+ "pem-fingerprint": {
+  "name": "PEM 证书指纹提取",
+  "category": "密码与安全",
+  "summary": "PEM 证书指纹提取。"
+ },
+ "perf-bench": {
+  "name": "计时基准测试",
+  "category": "开发助手",
+  "summary": "计时基准测试：用 time.perf_counter 对比多种计时函数的分辨率与调用开销，"
+ },
+ "permission-audit": {
+  "name": "文件权限审计",
+  "category": "文件与目录",
+  "summary": "permission-audit.py —— 文件权限审计"
+ },
+ "persian-calendar": {
+  "name": "波斯历换算",
+  "category": "日期与日历",
+  "summary": "波斯历换算：公历与伊朗 Jalali（Solar Hijri，太阳希吉来历）互转，输出波斯月名。"
+ },
+ "personality-fortune": {
+  "name": "今日人设卡",
+  "category": "趣味生成",
+  "summary": "今日人设卡 —— 随机生成一张含属性、弱点、技能的每日人设卡。"
+ },
+ "pet-namer": {
+  "name": "宠物起名助手",
+  "category": "趣味生成",
+  "summary": "宠物起名助手 —— 按物种与性格关键词生成可爱宠物名。"
+ },
+ "photoshop-irb-read": {
+  "name": "读取 JPEG APP13 中的 Photoshop 图像资源",
+  "category": "图片与媒体",
+  "summary": "photoshop-irb-read —— 读取 JPEG APP13 中的 Photoshop 图像资源 (IRB / 8BIM)"
+ },
+ "pickup-lines": {
+  "name": "土味情话机",
+  "category": "趣味生成",
+  "summary": "土味情话机（pickup-lines）。"
+ },
+ "pii-mask": {
+  "name": "敏感信息脱敏",
+  "category": "密码与安全",
+  "summary": "敏感信息脱敏(pii-mask)"
+ },
+ "pin-gen": {
+  "name": "批量 PIN 生成器",
+  "category": "密码与安全",
+  "summary": "批量 PIN 生成器（secrets 强随机）。"
+ },
+ "pipe2csv": {
+  "name": "把竖线/多空格分隔的表格输出清洗成规范 CSV",
+  "category": "数据转换",
+  "summary": "pipe2csv —— 把竖线/多空格分隔的表格输出清洗成规范 CSV。"
+ },
+ "pixel-editor": {
+  "name": "终端像素画",
+  "category": "趣味生成",
+  "summary": "终端像素画 —— 方向键在网格中移动光标、空格涂色的迷你像素画编辑器，作品可保存/读取文件。"
+ },
+ "plist-json-convert": {
+  "name": "plist 与 JSON 互转",
+  "category": "数据转换",
+  "summary": "plist 与 JSON 互转：用标准库 plistlib 在 macOS plist（XML / 二进制）与 JSON 之间双向转换。"
+ },
+ "plist2json": {
+  "name": "plist 转 JSON",
+  "category": "数据转换",
+  "summary": "plist 转 JSON (plist2json) —— 用 plistlib 在 macOS plist (XML/二进制)"
+ },
+ "png-chunk-walker": {
+  "name": "PNG 块遍历器",
+  "category": "图片与媒体",
+  "summary": "PNG 块遍历器(png-chunk-walker) —— 按顺序列出 PNG 全部 chunk 的类型、长度与文件偏移，标注关键/辅助/私有位。"
+ },
+ "png-color-type-explain": {
+  "name": "PNG 颜色类型解释",
+  "category": "图片与媒体",
+  "summary": "PNG 颜色类型解释 —— 解释颜色类型与位深组合的通道数/Alpha/每像素位数。"
+ },
+ "png-crc-verify": {
+  "name": "PNG CRC 校验器",
+  "category": "图片与媒体",
+  "summary": "PNG CRC 校验器：用 zlib.crc32 逐一校验 PNG 每个 chunk 的 CRC32，报告损坏块的位置。"
+ },
+ "png-idat-stats": {
+  "name": "PNG IDAT 统计",
+  "category": "图片与媒体",
+  "summary": "PNG IDAT 统计 —— 统计 IDAT 块个数、压缩总量、占文件比例与大小分布。"
+ },
+ "png-ihdr-dump": {
+  "name": "PNG IHDR 转储",
+  "category": "图片与媒体",
+  "summary": "PNG IHDR 转储 —— 解析 PNG 头部的 IHDR 块, 输出并解释全部 7 个字段。"
+ },
+ "png-metadata-summary": {
+  "name": "PNG 元数据汇总器",
+  "category": "图片与媒体",
+  "summary": "PNG 元数据汇总器：解析 PNG 的辅助信息块并以人类可读方式汇总输出。"
+ },
+ "png-optimize-report": {
+  "name": "PNG 优化线索报告",
+  "category": "图片与媒体",
+  "summary": "png-optimize-report.py —— PNG 优化线索报告（仅用 Python 标准库）。"
+ },
+ "png-phys-dpi": {
+  "name": "PNG DPI 读取器",
+  "category": "图片与媒体",
+  "summary": "PNG DPI 读取器：解析 pHYs 块，输出每米像素数、换算 DPI 及图像的物理厘米尺寸。"
+ },
+ "png-plte-dump": {
+  "name": "PNG 调色板转储",
+  "category": "图片与媒体",
+  "summary": "PNG 调色板转储 —— 解析 PLTE 块, 输出颜色数与前 N 项 RGB 并检测异常。"
+ },
+ "png-scanline-verify": {
+  "name": "PNG 行宽验证",
+  "category": "图片与媒体",
+  "summary": "PNG 行宽验证 —— 按公式计算扫描线总字节数, 与 IDAT 解压长度比对验证完整性。"
+ },
+ "png-text-extract": {
+  "name": "PNG 文本提取器",
+  "category": "图片与媒体",
+  "summary": "PNG 文本提取器：提取 PNG 中 tEXt / zTXt / iTXt 块的关键字-文本对。"
+ },
+ "png-text-set": {
+  "name": "PNG 文本写入器",
+  "category": "图片与媒体",
+  "summary": "PNG 文本写入器：向 PNG 追加或替换指定关键字的 tEXt 块，重排 IEND 后输出新文件。"
+ },
+ "png-trailer-check": {
+  "name": "PNG 尾部检查",
+  "category": "图片与媒体",
+  "summary": "PNG 尾部检查 —— 检查 IEND 之后是否残留附加数据。"
+ },
+ "pnm-header-read": {
+  "name": "PNM 头读取",
+  "category": "图片与媒体",
+  "summary": "PNM 头读取 —— 解析 PBM/PGM/PPM/PAM(P1–P7) 的魔数、宽高与最大灰度值。"
+ },
+ "prefix-suffix-rename": {
+  "name": "前后缀重命名",
+  "category": "文件与目录",
+  "summary": "前后缀重命名（prefix-suffix-rename）：为一批文件统一添加前缀或后缀。"
+ },
+ "pregnancy-week": {
+  "name": "孕周预产期计算",
+  "category": "日期与日历",
+  "summary": "孕周预产期计算：按末次月经日期计算当前孕周孕天、预产期与孕程进度。"
+ },
+ "print-debug-finder": {
+  "name": "调试输出残留扫描",
+  "category": "开发助手",
+  "summary": "print-debug-finder —— 调试输出残留扫描（单文件，仅用 Python 标准库）。"
+ },
+ "print-size-check": {
+  "name": "冲印尺寸检查",
+  "category": "图片与媒体",
+  "summary": "冲印尺寸检查 (print-size-check) —— 按 300DPI 标准判断照片长边可冲印的最大尺寸并给出推荐规格。"
+ },
+ "project-motto": {
+  "name": "项目口号机",
+  "category": "趣味生成",
+  "summary": "project-motto —— 项目口号机。"
+ },
+ "pronounceable-password": {
+  "name": "可发音密码生成器",
+  "category": "密码与安全",
+  "summary": "可发音密码生成器 —— 按辅音+元音音节规则生成可朗读、易记忆的随机密码。"
+ },
+ "prop2env": {
+  "name": "把 Java .properties 文件转成 dotenv 风格的 KEY=VALUE 格式",
+  "category": "数据转换",
+  "summary": "prop2env.py -- 把 Java .properties 文件转成 dotenv 风格的 KEY=VALUE 格式。"
+ },
+ "psd-header-read": {
+  "name": "PSD 头读取",
+  "category": "图片与媒体",
+  "summary": "PSD 头读取 —— 解析 PSD/PSB 文件头（8BPS）。"
+ },
+ "publish-word-count": {
+  "name": "出版版面字数估算",
+  "category": "文本处理",
+  "summary": "出版版面字数估算 —— 按出版排版口径（行数 × 每行字数）估算版面字数。"
+ },
+ "punct-trad-convert": {
+  "name": "繁体标点风格转换",
+  "category": "中文本地化",
+  "summary": "繁体标点风格转换：弯引号“”‘’与直角引号「」『』互转，适配繁体出版与竖排习惯。"
+ },
+ "punycode-convert": {
+  "name": "Punycode 域名转换",
+  "category": "编码与哈希",
+  "summary": "Punycode 域名转换 —— 中文等国际化域名（IDN）与 xn-- Punycode 互转。"
+ },
+ "punycode-tool": {
+  "name": "Punycode 域名转码",
+  "category": "编码与哈希",
+  "summary": "Punycode 域名转码：中文/国际化域名(IDN)与 xn-- ASCII 形式互相转换。"
+ },
+ "px-unit-convert": {
+  "name": "像素单位换算",
+  "category": "图片与媒体",
+  "summary": "像素单位换算 (px-unit-convert) —— 在指定 DPI 下进行像素与英寸/厘米/毫米的双向换算。"
+ },
+ "pycache-cleaner": {
+  "name": "字节码缓存清理器",
+  "category": "开发助手",
+  "summary": "字节码缓存清理器（pycache-cleaner）。"
+ },
+ "python-env-report": {
+  "name": "Python 环境报告",
+  "category": "开发助手",
+  "summary": "Python 环境报告（python-env-report）。"
+ },
+ "quarter-progress": {
+  "name": "季度进度条",
+  "category": "日期与日历",
+  "summary": "季度进度条：以进度条形式显示某日期所处自然季度与年度的已过时间百分比。"
+ },
+ "quickpeek": {
+  "name": "批量文件首尾行预览",
+  "category": "文本处理",
+  "summary": "quickpeek —— 批量文件首尾行预览。"
+ },
+ "quota-watch": {
+  "name": "目录配额监视器",
+  "category": "文件与目录",
+  "summary": "目录配额监视器（quota-watch）"
+ },
+ "quote-direction-fix": {
+  "name": "引号方向修复",
+  "category": "文本处理",
+  "summary": "引号方向修复(quote-direction-fix)"
+ },
+ "quote-nesting-lint": {
+  "name": "引号嵌套规范检查",
+  "category": "文本处理",
+  "summary": "引号嵌套规范检查(quote-nesting-lint)"
+ },
+ "quote-style-convert": {
+  "name": "引号风格切换",
+  "category": "文本处理",
+  "summary": "引号风格切换(quote-style-convert)"
+ },
+ "quoted-printable-convert": {
+  "name": "Quoted-Printable 转换",
+  "category": "编码与哈希",
+  "summary": "quoted-printable-convert Quoted-Printable 转换：用标准库 quopri 在 QP 编码"
+ },
+ "quoted-printable-tool": {
+  "name": "Quoted-Printable 编解码",
+  "category": "编码与哈希",
+  "summary": "Quoted-Printable 编解码 —— 用标准库 quopri 处理邮件 QP 编码正文(=XX 与软换行)。"
+ },
+ "raffle-drawer": {
+  "name": "抽奖机",
+  "category": "趣味生成",
+  "summary": "抽奖机 —— 从 CSV 名单抽 N 名中奖者，中奖者移出奖池，绝不重复中奖。"
+ },
+ "rainbow-fart": {
+  "name": "彩虹屁生成器",
+  "category": "趣味生成",
+  "summary": "彩虹屁生成器（rainbow-fart）。"
+ },
+ "rainbow-paint": {
+  "name": "彩虹字刷屏",
+  "category": "趣味生成",
+  "summary": "彩虹字刷屏 (rainbow-paint)。"
+ },
+ "random-bytes": {
+  "name": "加密随机字节输出",
+  "category": "密码与安全",
+  "summary": "加密随机字节输出 (random-bytes)。"
+ },
+ "random-doodle": {
+  "name": "随机抽象画",
+  "category": "趣味生成",
+  "summary": "随机抽象画 (random-doodle) -- 基于种子生成随机几何字符画, 同种子可复现。"
+ },
+ "random-filename": {
+  "name": "随机文件抽样",
+  "category": "文件与目录",
+  "summary": "随机文件抽样（random-filename）——从目录里随机挑一个文件打印出来。"
+ },
+ "random-mission": {
+  "name": "今日任务签",
+  "category": "趣味生成",
+  "summary": "random-mission.py — 今日任务签: 抽一枚每日挑战小签(单文件, 仅标准库)。"
+ },
+ "randomize-rename": {
+  "name": "随机化重命名",
+  "category": "文件与目录",
+  "summary": "随机化重命名 (randomize-rename)"
+ },
+ "range-merge": {
+  "name": "日期区间合并求交",
+  "category": "日期与日历",
+  "summary": "日期区间合并求交（range-merge）。"
+ },
+ "rare-char-scan": {
+  "name": "生僻字扫描",
+  "category": "中文本地化",
+  "summary": "生僻字扫描 —— 扫描文本中的生僻字、扩展区汉字与字体易缺字字符，生成替换确认清单。"
+ },
+ "readability": {
+  "name": "可读性评估",
+  "category": "文本处理",
+  "summary": "可读性评估（readability）：计算平均句长、平均词长与长句占比，"
+ },
+ "reading-time": {
+  "name": "阅读时长估算",
+  "category": "文本处理",
+  "summary": "阅读时长估算 (reading-time)。"
+ },
+ "readonly-lister": {
+  "name": "只读文件清单",
+  "category": "文件与目录",
+  "summary": "只读文件清单（readonly-lister）—— 找出目录树中被标记只读的文件。"
+ },
+ "recent-files-report": {
+  "name": "最近新建/修改文件报告",
+  "category": "文件与目录",
+  "summary": "recent-files-report.py —— 最近新建/修改文件报告（仅用 Python 标准库）。"
+ },
+ "recurring-dates": {
+  "name": "周期日期序列生成",
+  "category": "日期与日历",
+  "summary": "周期日期序列生成（recurring-dates）。"
+ },
+ "red-envelope": {
+  "name": "拼手气红包",
+  "category": "趣味生成",
+  "summary": "拼手气红包（red-envelope）——把指定金额随机拆成 N 份，并公布手气排行榜。"
+ },
+ "regex-dialect": {
+  "name": "正则方言转换器",
+  "category": "开发助手",
+  "summary": "正则方言转换器 — 在 PCRE/JavaScript/Go(RE2) 与 Python re 之间改写常见语法差异。"
+ },
+ "regex-doctor": {
+  "name": "正则隐患体检",
+  "category": "开发助手",
+  "summary": "正则隐患体检（regex-doctor）：静态检查正则中的性能与正确性隐患并给出建议。"
+ },
+ "regex-explainer": {
+  "name": "正则解释器",
+  "category": "开发助手",
+  "summary": "正则解释器（regex-explainer）：逐 token 解析正则表达式，输出人类可读的中文逐段解释。"
+ },
+ "regex-grepdir": {
+  "name": "递归目录正则搜索",
+  "category": "文本处理",
+  "summary": "递归目录正则搜索 — 递归扫描目录按正则搜行，输出 文件名:行号:内容 并统计每文件命中数。"
+ },
+ "regex-groupgen": {
+  "name": "命名组代码生成器",
+  "category": "开发助手",
+  "summary": "命名组代码生成器 — 从正则的命名捕获组自动生成 Python 样板代码。"
+ },
+ "regex-harvest": {
+  "name": "捕获组导出器",
+  "category": "文本处理",
+  "summary": "捕获组导出器（regex-harvest）：对文本跑带命名捕获组的正则，"
+ },
+ "regex-paint": {
+  "name": "终端匹配高亮器",
+  "category": "文本处理",
+  "summary": "终端匹配高亮器 — 用 ANSI 颜色在终端高亮文本中所有正则匹配，不同捕获组不同颜色。"
+ },
+ "regex-probe": {
+  "name": "正则批量验证器",
+  "category": "开发助手",
+  "summary": "正则批量验证器（regex-probe）：给定正则与样本文件，逐行标注命中/未命中，"
+ },
+ "regex-rename": {
+  "name": "正则重命名",
+  "category": "文件与目录",
+  "summary": "正则重命名（regex-rename）：用正则捕获组加模板批量重命名文件。"
+ },
+ "regex-splitter": {
+  "name": "正则边界切分器",
+  "category": "文本处理",
+  "summary": "正则边界切分器 — 按正则匹配位置把大文件切成若干小文件。"
+ },
+ "regex-swap": {
+  "name": "正则替换预览器",
+  "category": "文本处理",
+  "summary": "正则替换预览器（regex-swap）：先用 dry-run 展示正则替换前后的 diff，"
+ },
+ "region-outline": {
+  "name": "提取 #region/#endregion 等折叠标记",
+  "category": "开发助手",
+  "summary": "region-outline —— 提取 #region/#endregion 等折叠标记，输出代码区域大纲树。"
+ },
+ "regional-t2s": {
+  "name": "台港繁转简",
+  "category": "中文本地化",
+  "summary": "台港繁转简（regional-t2s）"
+ },
+ "relative-date": {
+  "name": "相对日期表达生成",
+  "category": "日期与日历",
+  "summary": "相对日期表达生成 —— 把日期翻译为“3 天前”“下下周二”“月底”等自然语言相对表达。"
+ },
+ "release-window": {
+  "name": "发版窗口检查",
+  "category": "日期与日历",
+  "summary": "发版窗口检查（release-window）——判断候选发布日期是否落在周五、节假日前等高风险窗口并给出建议。"
+ },
+ "rename-journal": {
+  "name": "重命名日志与撤销",
+  "category": "文件与目录",
+  "summary": "重命名日志与撤销 (rename-journal) —— 批量重命名并把每批操作写入 JSON 日志, 支持一键回滚最近一批。"
+ },
+ "repackage-archive": {
+  "name": "压缩包转格式",
+  "category": "文件与目录",
+  "summary": "压缩包转格式：在内存中把 zip 内容重新打包为 tar.gz（或反向），全程不落盘解压。"
+ },
+ "repeat-punct-compress": {
+  "name": "重复标点压缩",
+  "category": "文本处理",
+  "summary": "重复标点压缩(repeat-punct-compress)"
+ },
+ "replace-in-files": {
+  "name": "多文件内容替换",
+  "category": "文本处理",
+  "summary": "多文件内容替换 —— 对一批文本文件执行查找替换（字面或正则），修改前先写 .bak 备份。"
+ },
+ "retina-audit": {
+  "name": "Retina 配对审计",
+  "category": "图片与媒体",
+  "summary": "Retina 配对审计 (retina-audit) —— 检查一组图标文件是否满足 @1x/@2x/@3x 尺寸配对关系并指出缺失项。"
+ },
+ "reverse-patch-gen": {
+  "name": "反向补丁生成",
+  "category": "开发助手",
+  "summary": "反向补丁生成 (reverse-patch-gen)。"
+ },
+ "rfc3339-check": {
+  "name": "RFC 3339 日期时间字符串严格校验器",
+  "category": "日期与日历",
+  "summary": "RFC 3339 日期时间字符串严格校验器。"
+ },
+ "rmb-batch-csv": {
+  "name": "CSV 金额列批量大写",
+  "category": "财务人民币",
+  "summary": "CSV 金额列批量大写（单文件，仅 Python 标准库）。"
+ },
+ "rmb-case-diff": {
+  "name": "大小写金额一致性比对",
+  "category": "财务人民币",
+  "summary": "大小写金额一致性比对（单文件，仅 Python 标准库）。"
+ },
+ "rmb-extract-text": {
+  "name": "文本金额抽取转大写",
+  "category": "财务人民币",
+  "summary": "rmb-extract-text —— 文本金额抽取转大写。"
+ },
+ "rmb-fill-template": {
+  "name": "合同金额双写填充",
+  "category": "财务人民币",
+  "summary": "rmb-fill-template —— 合同金额双写填充。"
+ },
+ "rmb-json-transform": {
+  "name": "JSON 金额字段大写化",
+  "category": "财务人民币",
+  "summary": "rmb-json-transform —— JSON 金额字段大写化。"
+ },
+ "rmb-markdown-rewrite": {
+  "name": "Markdown 金额改写",
+  "category": "财务人民币",
+  "summary": "Markdown 金额改写(rmb-markdown-rewrite)。"
+ },
+ "rmb-mask": {
+  "name": "金额脱敏打码",
+  "category": "财务人民币",
+  "summary": "rmb-mask —— 金额脱敏打码。"
+ },
+ "rmb-parse": {
+  "name": "人民币大写金额反解析器",
+  "category": "财务人民币",
+  "summary": "人民币大写金额反解析器（大写文本 → 阿拉伯数字金额）。"
+ },
+ "rmb-precision-lint": {
+  "name": "金额精度检查",
+  "category": "财务人民币",
+  "summary": "金额精度检查(rmb-precision-lint)。"
+ },
+ "rmb-quickref-table": {
+  "name": "金额大写速查表生成",
+  "category": "财务人民币",
+  "summary": "rmb-quickref-table —— 金额大写速查表生成（Markdown 或 CSV，供打印）。"
+ },
+ "rmb-readout": {
+  "name": "大写金额朗读分段",
+  "category": "财务人民币",
+  "summary": "rmb-readout —— 大写金额朗读分段（按亿、万、元分节并加节标注）。"
+ },
+ "rmb-scan-report": {
+  "name": "目录金额扫描报告",
+  "category": "财务人民币",
+  "summary": "目录金额扫描报告(rmb-scan-report)。"
+ },
+ "rmb-uppercase-variants": {
+  "name": "对同一金额输出多种人民币大写规范变体",
+  "category": "财务人民币",
+  "summary": "rmb-uppercase-variants —— 对同一金额输出多种人民币大写规范变体，便于对照。"
+ },
+ "rmb-uppercase": {
+  "name": "人民币大写金额转换器",
+  "category": "财务人民币",
+  "summary": "人民币大写金额转换器（阿拉伯数字 → 财会规范大写）。"
+ },
+ "rmb-validate": {
+  "name": "大写金额合法性校验",
+  "category": "财务人民币",
+  "summary": "大写金额合法性校验（单文件，仅 Python 标准库）。"
+ },
+ "rmb-wan-section": {
+  "name": "万进制分节显示",
+  "category": "财务人民币",
+  "summary": "rmb-wan-section —— 万进制分节显示。"
+ },
+ "robot-namer": {
+  "name": "机器人编号名",
+  "category": "趣味生成",
+  "summary": "机器人编号名 —— RX-78 / MK-IV 风格机甲编号, 外加昵称与小传。"
+ },
+ "rock-paper-scissors": {
+  "name": "猜拳陪练",
+  "category": "趣味生成",
+  "summary": "猜拳陪练 —— 与电脑猜拳，实时累计战绩，连胜连败自动播报梗文案。"
+ },
+ "roman-convert": {
+  "name": "罗马数字互转",
+  "category": "数据转换",
+  "summary": "罗马数字互转 (roman-convert)"
+ },
+ "rot-bruteforce": {
+  "name": "ROT 全量尝试",
+  "category": "编码与哈希",
+  "summary": "ROT 全量尝试 (rot-bruteforce) —— 26 个凯撒移位按英文可读度排序."
+ },
+ "rot13-tool": {
+  "name": "ROT13 / ROT47 可逆文本变换工具",
+  "category": "编码与哈希",
+  "summary": "ROT13 / ROT47 可逆文本变换工具。"
+ },
+ "s2hk-convert": {
+  "name": "简体转香港繁体转换器",
+  "category": "中文本地化",
+  "summary": "s2hk-convert.py — 简体转香港繁体转换器。"
+ },
+ "s2t-batch-dir": {
+  "name": "目录批量简繁转换",
+  "category": "中文本地化",
+  "summary": "目录批量简繁转换：递归处理目录内指定扩展名的文本文件，就地或另存转换，支持备份与排除规则。"
+ },
+ "s2t-char-report": {
+  "name": "简繁差异字频报告",
+  "category": "中文本地化",
+  "summary": "s2t-char-report —— 简繁差异字频报告"
+ },
+ "s2t-code-safe": {
+  "name": "代码安全简繁转换",
+  "category": "中文本地化",
+  "summary": "代码安全简繁转换（s2t-code-safe）"
+ },
+ "s2t-context-lint": {
+  "name": "转换结果上下文审查",
+  "category": "中文本地化",
+  "summary": "转换结果上下文审查 (s2t-context-lint)。"
+ },
+ "s2t-convert": {
+  "name": "简体转繁体转换器",
+  "category": "中文本地化",
+  "summary": "s2t-convert.py — 简体转繁体转换器。"
+ },
+ "s2t-csv-column": {
+  "name": "CSV 指定列简繁转换",
+  "category": "中文本地化",
+  "summary": "CSV 指定列简繁转换（s2t-csv-column）"
+ },
+ "s2t-custom-map": {
+  "name": "自定义映射转换",
+  "category": "中文本地化",
+  "summary": "自定义映射转换：加载用户 CSV 映射表做单字/词级替换转换，词优先于字。"
+ },
+ "s2t-diff": {
+  "name": "简繁差异高亮对比",
+  "category": "中文本地化",
+  "summary": "s2t-diff —— 简繁差异高亮对比"
+ },
+ "s2t-glossary-align": {
+  "name": "简繁词对照表维护",
+  "category": "中文本地化",
+  "summary": "简繁词对照表维护：从两份平行文本（简体版 + 繁体版）自动对齐，生成简繁词对照表并导出 CSV。"
+ },
+ "s2t-grep": {
+  "name": "简繁互搜",
+  "category": "中文本地化",
+  "summary": "简繁互搜 (s2t-grep)。"
+ },
+ "s2t-map-export": {
+  "name": "映射表导出工具",
+  "category": "中文本地化",
+  "summary": "映射表导出工具：把内置简→繁单字映射导出为 CSV。"
+ },
+ "s2t-protect": {
+  "name": "保护名单简繁转换",
+  "category": "中文本地化",
+  "summary": "保护名单简繁转换（s2t-protect）"
+ },
+ "s2t-ratio": {
+  "name": "简繁比例统计",
+  "category": "中文本地化",
+  "summary": "s2t-ratio —— 简繁比例统计"
+ },
+ "s2t-roundtrip-verify": {
+  "name": "简繁回译校验",
+  "category": "中文本地化",
+  "summary": "s2t-roundtrip-verify —— 简繁回译校验"
+ },
+ "s2t-srt": {
+  "name": "SRT 字幕简繁转换",
+  "category": "中文本地化",
+  "summary": "SRT 字幕简繁转换（s2t-srt）"
+ },
+ "s2t-stream": {
+  "name": "流式简繁管道转换",
+  "category": "中文本地化",
+  "summary": "流式简繁管道转换：stdin/stdout 逐行转换，内存占用与文件大小无关，适合管道处理超大文件。"
+ },
+ "s2tw-convert": {
+  "name": "简体转台湾正体转换器",
+  "category": "中文本地化",
+  "summary": "s2tw-convert.py — 简体转台湾正体转换器。"
+ },
+ "same-header-finder": {
+  "name": "同表头 CSV 查找器",
+  "category": "文件与目录",
+  "summary": "same-header-finder —— 同表头 CSV 查找器。"
+ },
+ "sample-lines": {
+  "name": "随机抽样行",
+  "category": "文本处理",
+  "summary": "随机抽样行 (sample-lines): 对大文件做 reservoir sampling 抽取 N 行或按比例抽样，"
+ },
+ "sanitize-rename": {
+  "name": "文件名清洗",
+  "category": "文件与目录",
+  "summary": "文件名清洗 (sanitize-rename) —— 去除或替换文件名中的空格、非法字符、全角符号与连续横线, 输出安全文件名。"
+ },
+ "scale-to-fit": {
+  "name": "等比缩放计算",
+  "category": "图片与媒体",
+  "summary": "等比缩放计算（scale-to-fit）——等比缩放到恰好放进目标框。"
+ },
+ "school-week": {
+  "name": "教学周计算",
+  "category": "日期与日历",
+  "summary": "教学周计算：按学期开学日计算某日期处于第几教学周，或由周次反查该周日期区间。"
+ },
+ "script-type-census": {
+  "name": "脚本类型普查",
+  "category": "开发助手",
+  "summary": "脚本类型普查 (script-type-census) —— 通过 shebang 与扩展名统计目录内脚本的数量分布。"
+ },
+ "scrypt-tool": {
+  "name": "用 hashlib.scrypt 生成/校验口令哈希",
+  "category": "密码与安全",
+  "summary": "scrypt-tool.py —— 用 hashlib.scrypt 生成/校验口令哈希，N/r/p 参数可调。"
+ },
+ "search-result-save": {
+  "name": "搜索结果存档与差异对比",
+  "category": "其他",
+  "summary": "search-result-save —— 搜索结果存档与差异对比。"
+ },
+ "secret-pattern-scan": {
+  "name": "硬编码密钥/口令/Token 扫描",
+  "category": "密码与安全",
+  "summary": "secret-pattern-scan —— 硬编码密钥/口令/Token 扫描。"
+ },
+ "secret-santa": {
+  "name": "神秘圣诞老人",
+  "category": "趣味生成",
+  "summary": "神秘圣诞老人（secret-santa）：名单洗牌生成互送配对，为每人输出一张防剧透的小纸条文件。"
+ },
+ "secret-scan": {
+  "name": "密钥泄露扫描",
+  "category": "密码与安全",
+  "summary": "密钥泄露扫描(secret-scan)"
+ },
+ "secure-compare": {
+  "name": "常数时间比较器",
+  "category": "密码与安全",
+  "summary": "常数时间比较器 (secure-compare)。"
+ },
+ "semver-bump": {
+  "name": "版本号提升",
+  "category": "开发助手",
+  "summary": "版本号提升 (semver-bump)"
+ },
+ "seq-rename": {
+  "name": "序号重命名",
+  "category": "文件与目录",
+  "summary": "序号重命名（seq-rename）：按排序顺序把文件重命名为 001、002…。"
+ },
+ "session-log-split": {
+  "name": "会话日志归组",
+  "category": "文本处理",
+  "summary": "会话日志归组 (session-log-split): 按请求 ID/会话 ID 把交错的日志行归组。"
+ },
+ "shake-xof": {
+  "name": "SHAKE128 / SHAKE256 可变长哈希",
+  "category": "编码与哈希",
+  "summary": "shake-xof.py —— SHAKE128 / SHAKE256 可变长哈希（XOF，仅 Python 标准库）。"
+ },
+ "shakespeare-insult": {
+  "name": "莎翁骂人词典",
+  "category": "趣味生成",
+  "summary": "莎翁骂人词典（shakespeare-insult）。"
+ },
+ "shamir-combine": {
+  "name": "秘密恢复器",
+  "category": "密码与安全",
+  "summary": "秘密恢复器 (shamir-combine) —— 与 shamir-split.py 分割器配套."
+ },
+ "shamir-split": {
+  "name": "秘密分割器",
+  "category": "密码与安全",
+  "summary": "秘密分割器 (shamir-split)。"
+ },
+ "shift-grid": {
+  "name": "三班倒时刻表",
+  "category": "效率办公",
+  "summary": "三班倒时刻表（shift-grid）"
+ },
+ "shift-rotate": {
+  "name": "轮班表生成",
+  "category": "效率办公",
+  "summary": "轮班表生成（shift-rotate）"
+ },
+ "ship-name": {
+  "name": "CP 名生成器",
+  "category": "趣味生成",
+  "summary": "CP 名生成器 —— 从两个名字混拼截取, 生成同人 CP 名候选。"
+ },
+ "shuffle-lines": {
+  "name": "行序洗牌",
+  "category": "文本处理",
+  "summary": "行序洗牌（shuffle-lines）——把文件或 stdin 的各行随机打乱后输出。"
+ },
+ "sibling-count-rank": {
+  "name": "同级条目排行",
+  "category": "文件与目录",
+  "summary": "同级条目排行（sibling-count-rank）。"
+ },
+ "sierpinski": {
+  "name": "三角分形",
+  "category": "趣味生成",
+  "summary": "三角分形（sierpinski）—— 谢尔宾斯基三角形/地毯的递归字符画生成。"
+ },
+ "sine-wave": {
+  "name": "正弦波纹",
+  "category": "趣味生成",
+  "summary": "正弦波纹 —— 在终端里滚动播放正弦波 / 双波干涉动画。"
+ },
+ "six-word-story": {
+  "name": "六词小说",
+  "category": "趣味生成",
+  "summary": "六词小说（six-word-story）—— 随机抽六个词写微型小说，不满意可重掷。"
+ },
+ "size-diff-snapshot": {
+  "name": "磁盘占用快照对比",
+  "category": "文件与目录",
+  "summary": "磁盘占用快照对比 (size-diff-snapshot)"
+ },
+ "size-histogram": {
+  "name": "文件大小分布直方图",
+  "category": "文件与目录",
+  "summary": "文件大小分布直方图 (size-histogram)"
+ },
+ "size-percentile": {
+  "name": "文件大小分位统计",
+  "category": "文件与目录",
+  "summary": "size-percentile — 文件大小分位统计。"
+ },
+ "size-range-finder": {
+  "name": "大小区间找文件",
+  "category": "文件与目录",
+  "summary": "大小区间找文件（size-range-finder）—— 找出大小落在指定区间的文件。"
+ },
+ "sleep-cycle": {
+  "name": "睡眠周期推荐",
+  "category": "效率办公",
+  "summary": "睡眠周期推荐 —— 按 90 分钟睡眠周期推荐最佳就寝或起床时刻。"
+ },
+ "slow-request-rank": {
+  "name": "慢请求排行",
+  "category": "网络与系统",
+  "summary": "慢请求排行(slow-request-rank):解析访问日志耗时字段,列出最慢的 N 个请求。"
+ },
+ "slugify": {
+  "name": "URL Slug 生成",
+  "category": "文本处理",
+  "summary": "URL Slug 生成 (slugify)"
+ },
+ "smartquote-fix": {
+  "name": "引号规范化",
+  "category": "文本处理",
+  "summary": "引号规范化(smartquote-fix)"
+ },
+ "snapshot-dir-diff": {
+  "name": "目录快照对比工具",
+  "category": "文件与目录",
+  "summary": "snapshot-dir-diff.py —— 目录快照对比工具（仅用 Python 标准库）。"
+ },
+ "snowflake-id": {
+  "name": "雪花 ID 工具",
+  "category": "开发助手",
+  "summary": "雪花 ID 工具：生成与解析 Twitter 风格雪花 ID（毫秒时间 + 机器号 + 序列）。"
+ },
+ "solar-terms": {
+  "name": "二十四节气查询",
+  "category": "日期与日历",
+  "summary": "二十四节气查询（纯标准库实现）。"
+ },
+ "sort-natural": {
+  "name": "自然排序",
+  "category": "文本处理",
+  "summary": "自然排序 (sort-natural): 按数字感知方式对文本行排序，file2 排在 file10 之前。"
+ },
+ "sort-rename": {
+  "name": "排序编号重命名",
+  "category": "文件与目录",
+  "summary": "排序编号重命名 (sort-rename)"
+ },
+ "sparkline-text": {
+  "name": "迷你趋势线",
+  "category": "文本处理",
+  "summary": "迷你趋势线 (sparkline-text) -- 用 ▁▂▃▄▅▆▇█ 把一列数据渲染成一行火花线。"
+ },
+ "sparse-file-detector": {
+  "name": "稀疏文件检测器",
+  "category": "文件与目录",
+  "summary": "稀疏文件检测器（sparse-file-detector）"
+ },
+ "speaking-order": {
+  "name": "抽签排顺序",
+  "category": "效率办公",
+  "summary": "抽签排顺序（speaking-order）：为汇报/演讲随机生成出场顺序，并打印签号对照表。"
+ },
+ "split-binary-separator": {
+  "name": "按字节序列分隔符拆二进制文件",
+  "category": "文件与目录",
+  "summary": "按字节序列分隔符拆二进制文件。"
+ },
+ "split-by-empty-line": {
+  "name": "按空行分块拆分",
+  "category": "文本处理",
+  "summary": "按空行分块拆分 (split-by-empty-line)"
+ },
+ "split-by-lines": {
+  "name": "把文本文件按每 N 行拆成多个文件",
+  "category": "文本处理",
+  "summary": "把文本文件按每 N 行拆成多个文件，文件名带序号前缀。"
+ },
+ "split-by-pattern": {
+  "name": "按标记拆分文本",
+  "category": "文本处理",
+  "summary": "按标记拆分文本 (split-by-pattern)"
+ },
+ "split-by-size": {
+  "name": "按字节分卷拆分大文件",
+  "category": "文件与目录",
+  "summary": "按字节分卷拆分大文件，生成含 SHA-256 哈希的清单（JSON）便于还原校验。"
+ },
+ "split-csv": {
+  "name": "拆分大 CSV",
+  "category": "数据转换",
+  "summary": "拆分大 CSV：按行数切成多个分片，或按某列的值分组拆成多个文件，均保留表头。"
+ },
+ "split-fasta": {
+  "name": "FASTA 序列拆分 / 抽取工具",
+  "category": "数据转换",
+  "summary": "FASTA 序列拆分 / 抽取工具。"
+ },
+ "split-file-lines": {
+  "name": "按行切分文件",
+  "category": "文本处理",
+  "summary": "按行切分文件 (split-file-lines): 把大文件按行数或按分隔标记切成带序号的小文件，"
+ },
+ "split-ini-sections": {
+  "name": "INI 按节拆分 / 合并工具",
+  "category": "数据转换",
+  "summary": "INI 按节拆分 / 合并工具。"
+ },
+ "split-json-array": {
+  "name": "把 JSON 数组按每 N 个元素拆分为多个独立 JSON 文件",
+  "category": "数据转换",
+  "summary": "把 JSON 数组按每 N 个元素拆分为多个独立 JSON 文件，并可合并还原。"
+ },
+ "split-log-by-date": {
+  "name": "日志按日期拆分",
+  "category": "文本处理",
+  "summary": "日志按日期拆分 (split-log-by-date)"
+ },
+ "split-md-headings": {
+  "name": "Markdown 按标题拆分",
+  "category": "文本处理",
+  "summary": "Markdown 按标题拆分 (split-md-headings)"
+ },
+ "split-xml": {
+  "name": "XML 按元素拆分",
+  "category": "数据转换",
+  "summary": "XML 按元素拆分：把含大量重复子元素的 XML 按指定标签拆成多个片段文件，各自带根元素包装。"
+ },
+ "sprint-calendar": {
+  "name": "敏捷迭代日历",
+  "category": "日期与日历",
+  "summary": "敏捷迭代日历（sprint-calendar）"
+ },
+ "sprite-frame-calc": {
+  "name": "雪碧图切格计算",
+  "category": "图片与媒体",
+  "summary": "雪碧图切格计算（sprite-frame-calc）。"
+ },
+ "srt-convert": {
+  "name": "字幕 SRT 与 WebVTT 互转",
+  "category": "图片与媒体",
+  "summary": "字幕 SRT 与 WebVTT 互转：在 SubRip(.srt) 与 WebVTT(.vtt) 两种字幕格式之间转换。"
+ },
+ "srt2vtt": {
+  "name": "在 SRT 与 WebVTT 字幕格式之间转换",
+  "category": "图片与媒体",
+  "summary": "srt2vtt.py -- 在 SRT 与 WebVTT 字幕格式之间转换，并校正时间戳格式。"
+ },
+ "stacktrace-collector": {
+  "name": "堆栈提取器",
+  "category": "开发助手",
+  "summary": "堆栈提取器 —— 从日志中把异常头与缩进堆栈行组装成完整堆栈块并逐个输出。"
+ },
+ "stale-file-finder": {
+  "name": "陈旧文件查找器",
+  "category": "文件与目录",
+  "summary": "stale-file-finder.py —— 陈旧文件查找器：找出多年未修改的大文件，输出归档候选清单与预估可归档空间（仅标准库，只读）。"
+ },
+ "star-field": {
+  "name": "星际穿越",
+  "category": "趣味生成",
+  "summary": "star-field 星际穿越 —— 星星向外飞掠的伪 3D 隧道动画。"
+ },
+ "startup-namer": {
+  "name": "创业公司起名",
+  "category": "趣味生成",
+  "summary": "startup-namer.py — 创业公司起名: 生成 Zylora 式创业风名字并按音节流畅度打分(单文件, 仅标准库)。"
+ },
+ "stat-fs-info": {
+  "name": "文件系统参数信息",
+  "category": "网络与系统",
+  "summary": "文件系统参数信息（stat-fs-info）。"
+ },
+ "status-code-stats": {
+  "name": "状态码分布",
+  "category": "网络与系统",
+  "summary": "状态码分布(status-code-stats):解析 HTTP 访问日志,统计状态码次数与占比。"
+ },
+ "stopwatch": {
+  "name": "命令行秒表",
+  "category": "效率办公",
+  "summary": "命令行秒表：开始/暂停/计圈/重置的交互式秒表，圈次与总时长精确到毫秒。"
+ },
+ "stopword-freq": {
+  "name": "停用词过滤词频",
+  "category": "文本处理",
+  "summary": "停用词过滤词频（stopword-freq）：内置中英停用词表的词频统计。"
+ },
+ "story-dice": {
+  "name": "故事骰子",
+  "category": "趣味生成",
+  "summary": "故事骰子（story-dice）—— 掷出九个图标词，串成一个即兴故事开头。"
+ },
+ "story-title": {
+  "name": "小说标题机",
+  "category": "趣味生成",
+  "summary": "story-title —— 小说标题机。"
+ },
+ "str-escape": {
+  "name": "字符串转义互转",
+  "category": "编码与哈希",
+  "summary": "字符串转义互转：在 Python repr、JSON、shell 单引号等风格之间安全互转。"
+ },
+ "stub-finder": {
+  "name": "未实现桩查找",
+  "category": "开发助手",
+  "summary": "stub-finder —— 未实现桩查找（单文件，仅用 Python 标准库）。"
+ },
+ "style-profile": {
+  "name": "排版风格预设套用",
+  "category": "文本处理",
+  "summary": "排版风格预设套用 — 提供「出版/网络文章/GitHub/字幕」等预设，一键按预设"
+ },
+ "subtitle-clean": {
+  "name": "字幕排版清洗",
+  "category": "图片与媒体",
+  "summary": "字幕排版清洗 —— 清洗 SRT 字幕：统一标点、去除 HTML 标签残留、压缩空行，时间轴不变。"
+ },
+ "svg-size-read": {
+  "name": "SVG 尺寸读取",
+  "category": "图片与媒体",
+  "summary": "SVG 尺寸读取 —— 用 ElementTree 解析 SVG 根元素的 width/height/viewBox。"
+ },
+ "swap-segments-rename": {
+  "name": "分段交换重命名",
+  "category": "文件与目录",
+  "summary": "分段交换重命名 (swap-segments-rename)"
+ },
+ "sysinfo-summary": {
+  "name": "系统信息速览",
+  "category": "网络与系统",
+  "summary": "系统信息速览（sysinfo-summary）。"
+ },
+ "syslog-stats": {
+  "name": "syslog解析统计",
+  "category": "网络与系统",
+  "summary": "syslog解析统计 (syslog-stats): 解析 syslog 格式行, 按主机、进程、级别维度统计分布。"
+ },
+ "t2s-convert": {
+  "name": "繁体转简体转换器",
+  "category": "中文本地化",
+  "summary": "t2s-convert.py — 繁体转简体转换器。"
+ },
+ "table-flip": {
+  "name": "摊桌表情包",
+  "category": "趣味生成",
+  "summary": "摊桌表情包 —— (╯°□°）╯︵ ┻━┻ 翻桌颜文字大全与随机翻桌。"
+ },
+ "tarot-draw": {
+  "name": "塔罗三张抽",
+  "category": "趣味生成",
+  "summary": "塔罗三张抽 —— 抽过去/现在/未来三张塔罗牌，含逆位设定。"
+ },
+ "team-name": {
+  "name": "团队战力名生成器",
+  "category": "趣味生成",
+  "summary": "team-name —— 团队战力名生成器。"
+ },
+ "team-splitter": {
+  "name": "随机分队",
+  "category": "趣味生成",
+  "summary": "随机分队 —— 把名单平均分成 N 组打印分组表, 支持指定队长。"
+ },
+ "temp-dir-audit": {
+  "name": "临时目录体检",
+  "category": "文件与目录",
+  "summary": "临时目录体检 (temp-dir-audit) —— 统计系统临时目录大小与最老文件年龄，评估可安全清理的空间。"
+ },
+ "temp-file-cleaner": {
+  "name": "临时备份文件清理",
+  "category": "文件与目录",
+  "summary": "临时备份文件清理：按模式（~ 结尾、.tmp、.bak、.swp 等）查找并清理编辑器与程序留下的临时文件。"
+ },
+ "term-enforce": {
+  "name": "术语表强制替换",
+  "category": "文本处理",
+  "summary": "术语表强制替换：按用户词表对文本做最长优先的术语替换（stdin/文件 -> stdout/文件）。"
+ },
+ "terminal-fireworks": {
+  "name": "随机位置逐帧绽放的 ANSI 彩色烟花表演",
+  "category": "趣味生成",
+  "summary": "terminal-fireworks（终端烟花）—— 随机位置逐帧绽放的 ANSI 彩色烟花表演。"
+ },
+ "terminal-snow": {
+  "name": "终端飘雪",
+  "category": "趣味生成",
+  "summary": "终端飘雪 —— 屏幕缓缓落雪的动画，可指定雪花密度与风速。"
+ },
+ "test-code-ratio": {
+  "name": "测试代码占比",
+  "category": "开发助手",
+  "summary": "测试代码占比 (test-code-ratio) —— 按路径规则区分测试与业务代码, 统计两者行数比例。"
+ },
+ "text-base64-convert": {
+  "name": "文本 Base64 转换",
+  "category": "编码与哈希",
+  "summary": "文本 Base64 转换 —— 按指定字符集编码读写文本文件的 Base64 编解码工具。"
+ },
+ "text-binary-classifier": {
+  "name": "文本/二进制分类器",
+  "category": "文件与目录",
+  "summary": "文本/二进制分类器（text-binary-classifier）"
+ },
+ "text-hash": {
+  "name": "文本多算法哈希",
+  "category": "编码与哈希",
+  "summary": "文本多算法哈希：对同一段文本同时计算多种哈希并对齐列表输出。"
+ },
+ "text-sim-score": {
+  "name": "相似度评分",
+  "category": "文本处理",
+  "summary": "相似度评分：用 difflib SequenceMatcher 与字符 Jaccard 给两段文本打相似度分数，"
+ },
+ "text-stats": {
+  "name": "文本体检报告",
+  "category": "文本处理",
+  "summary": "文本体检报告（text-stats）：统计行数、词数、字符数、段落数，"
+ },
+ "text-to-html": {
+  "name": "纯文本转 HTML 网页",
+  "category": "数据转换",
+  "summary": "纯文本转 HTML 网页。"
+ },
+ "tga-header-read": {
+  "name": "TGA 头读取",
+  "category": "图片与媒体",
+  "summary": "TGA 头读取 —— 解析 Truevision TGA（TARGA）18 字节文件头。"
+ },
+ "three-way-check": {
+  "name": "三方合并预检",
+  "category": "开发助手",
+  "summary": "three-way-check.py — 三方合并预检"
+ },
+ "thumb-size-suggest": {
+  "name": "缩略图尺寸建议",
+  "category": "图片与媒体",
+  "summary": "缩略图尺寸建议（thumb-size-suggest）。"
+ },
+ "tiff-ifd-summary": {
+  "name": "TIFF IFD 摘要",
+  "category": "图片与媒体",
+  "summary": "TIFF IFD 摘要 —— 解析 TIFF 字节序与 IFD 链, 输出核心标签摘要。"
+ },
+ "timer-pomodoro": {
+  "name": "番茄钟计时器",
+  "category": "效率办公",
+  "summary": "番茄钟计时器：按 25/5 分钟工作-休息循环计时，把完成的番茄数追加到日志文件。"
+ },
+ "timestamp-anomaly": {
+  "name": "检测时间戳不合理的文件",
+  "category": "文件与目录",
+  "summary": "timestamp-anomaly — 检测时间戳不合理的文件。"
+ },
+ "tls-cert-info": {
+  "name": "TLS 证书查看器",
+  "category": "网络与系统",
+  "summary": "TLS 证书查看器（标准库 ssl/socket 实现）。"
+ },
+ "tmp-name-docker": {
+  "name": "趣味临时名生成器",
+  "category": "趣味生成",
+  "summary": "tmp-name-docker —— 趣味临时名生成器（docker 风格\"形容词_科学家\"）。"
+ },
+ "todo-age-blame": {
+  "name": "TODO 存在时长",
+  "category": "开发助手",
+  "summary": "TODO 存在时长（todo-age-blame）——结合 git blame 计算每个 TODO 标记已存在多少天。"
+ },
+ "todo-by-owner": {
+  "name": "TODO按人分组",
+  "category": "开发助手",
+  "summary": "TODO按人分组 (todo-by-owner) —— 识别 TODO(user) 形式的负责人标记，按人归组输出各自待办清单。"
+ },
+ "todo-collector": {
+  "name": "TODO 收集器",
+  "category": "开发助手",
+  "summary": "TODO 收集器：扫描代码树，收集 TODO/FIXME/HACK/XXX 注释，按文件与标签分组输出清单。"
+ },
+ "todo-dated": {
+  "name": "带日期TODO检查",
+  "category": "开发助手",
+  "summary": "带日期TODO检查 (todo-dated) —— 提取 TODO 中标注的日期(如 TODO@2026-01-01)，列出已逾期项。"
+ },
+ "todo-density-rank": {
+  "name": "TODO 密度排行",
+  "category": "开发助手",
+  "summary": "TODO 密度排行 (todo-density-rank)。"
+ },
+ "todo-scanner": {
+  "name": "TODO全仓扫描",
+  "category": "开发助手",
+  "summary": "TODO全仓扫描 (todo-scanner) —— 扫描 TODO/FIXME/XXX/HACK 标记，输出带文件行号的清单。"
+ },
+ "todo-ticket-link": {
+  "name": "TODO 工单提取",
+  "category": "开发助手",
+  "summary": "TODO 工单提取（todo-ticket-link）——从 TODO 文本中提取工单号并生成工单关联清单。"
+ },
+ "token-gen": {
+  "name": "随机令牌生成",
+  "category": "密码与安全",
+  "summary": "随机令牌生成 (token-gen)。"
+ },
+ "toml2json": {
+  "name": "TOML 转 JSON",
+  "category": "数据转换",
+  "summary": "TOML 转 JSON：解析 pyproject.toml 等 TOML 文件并输出 JSON。"
+ },
+ "tongue-twister": {
+  "name": "绕口令工厂",
+  "category": "趣味生成",
+  "summary": "绕口令工厂（tongue-twister）—— 随机组合双声叠韵词生成绕口令。"
+ },
+ "top-large-files": {
+  "name": "找出目录树中最大的 N 个文件",
+  "category": "文件与目录",
+  "summary": "top-large-files.py —— 找出目录树中最大的 N 个文件（仅用 Python 标准库）。"
+ },
+ "totp-gen": {
+  "name": "TOTP 动态码生成器",
+  "category": "密码与安全",
+  "summary": "TOTP 动态码生成器 (RFC 6238)。"
+ },
+ "totp-secret-gen": {
+  "name": "TOTP 密钥生成器",
+  "category": "密码与安全",
+  "summary": "TOTP 密钥生成器 —— 生成 base32 编码的 TOTP 共享密钥，并输出配套 otpauth:// 链接与二维码字符画。"
+ },
+ "totp-verify": {
+  "name": "TOTP 校验器",
+  "category": "密码与安全",
+  "summary": "TOTP 校验器 (RFC 6238)。"
+ },
+ "touch-files": {
+  "name": "批量时间戳修改",
+  "category": "文件与目录",
+  "summary": "批量时间戳修改 —— 把一批文件的修改/访问时间设为指定时刻，或对齐到目录中最早/最晚文件。"
+ },
+ "trailing-data-report": {
+  "name": "尾部附加数据报告",
+  "category": "图片与媒体",
+  "summary": "尾部附加数据报告 —— 报告各图片正式结构结束点之后的附加数据大小并猜测其类型。"
+ },
+ "trailing-space-clean": {
+  "name": "行尾空白清理工具",
+  "category": "文本处理",
+  "summary": "trailing-space-clean.py — 行尾空白清理工具。"
+ },
+ "trailing-ws-scan": {
+  "name": "行尾空白扫描 / trailing whitespace scan",
+  "category": "文本处理",
+  "summary": "行尾空白扫描 / trailing whitespace scan."
+ },
+ "translit-ascii": {
+  "name": "非 ASCII 字符清洗",
+  "category": "文本处理",
+  "summary": "非 ASCII 字符清洗 —— 把文本转成纯 ASCII（全角→半角、弯引号→直引号、剥离变音符等）。"
+ },
+ "tree-hash-diff": {
+  "name": "清单树对比工具",
+  "category": "文件与目录",
+  "summary": "tree-hash-diff.py —— 清单树对比工具（仅用 Python 标准库）。"
+ },
+ "tree-merkle-hash": {
+  "name": "对文件分块构建 Merkle 树",
+  "category": "编码与哈希",
+  "summary": "tree-merkle-hash.py —— 对文件分块构建 Merkle 树，输出各层哈希与树根，并可验证某个数据块的归属。"
+ },
+ "tree-printer": {
+  "name": "目录树打印器",
+  "category": "文件与目录",
+  "summary": "目录树打印器（tree-printer）"
+ },
+ "tree-stats-summary": {
+  "name": "目录树速览摘要",
+  "category": "文件与目录",
+  "summary": "tree-stats-summary.py —— 目录树速览摘要：一行输出总大小、文件数、目录数、最大文件、平均深度等速览指标（仅用 Python 标准库）。"
+ },
+ "treemap-ascii": {
+  "name": "ASCII 矩形树图",
+  "category": "文件与目录",
+  "summary": "treemap-ascii — ASCII 矩形树图。"
+ },
+ "trim-trails": {
+  "name": "行尾空白修剪",
+  "category": "文本处理",
+  "summary": "行尾空白修剪（trim-trails）——删除每行行尾的空格与制表符并统计改动行数。"
+ },
+ "truncate-rename": {
+  "name": "文件名截断",
+  "category": "文件与目录",
+  "summary": "文件名截断 (truncate-rename)"
+ },
+ "truncated-image-detect": {
+  "name": "截断图片检测",
+  "category": "图片与媒体",
+  "summary": "截断图片检测（truncated-image-detect）。"
+ },
+ "truth-or-dare": {
+  "name": "真心话大冒险",
+  "category": "趣味生成",
+  "summary": "真心话大冒险（truth-or-dare）：内置题库随机抽真心话或大冒险，支持追加自定义题目。"
+ },
+ "tsv-csv-swap": {
+  "name": "TSV 与 CSV 双向转换",
+  "category": "数据转换",
+  "summary": "tsv-csv-swap —— TSV 与 CSV 双向转换(纯标准库), 正确处理两者约定差异。"
+ },
+ "ttl-remaining": {
+  "name": "TTL 剩余时间换算",
+  "category": "日期与日历",
+  "summary": "TTL 剩余时间换算（ttl-remaining）。"
+ },
+ "tw-ntd-uppercase": {
+  "name": "按台湾票据规范把金额转为新台币中文大写",
+  "category": "财务人民币",
+  "summary": "tw-ntd-uppercase —— 按台湾票据规范把金额转为新台币中文大写。"
+ },
+ "twin-ext-pairs": {
+  "name": "同名多扩展文件对查找器",
+  "category": "文件与目录",
+  "summary": "twin-ext-pairs —— 同名多扩展文件对查找器。"
+ },
+ "typing-effect": {
+  "name": "打字机回放",
+  "category": "趣味生成",
+  "summary": "打字机回放 —— 把文本或文件以打字机逐字效果输出。"
+ },
+ "tz-convert": {
+  "name": "多时区时间换算",
+  "category": "日期与日历",
+  "summary": "多时区时间换算 (tz-convert)"
+ },
+ "tz-diff": {
+  "name": "两地时差计算",
+  "category": "日期与日历",
+  "summary": "两地时差计算 —— 计算两个时区在指定日期的时差，自动考虑各自的夏令时差异。"
+ },
+ "tz-info": {
+  "name": "时区信息查询",
+  "category": "日期与日历",
+  "summary": "时区信息查询 —— 用 zoneinfo 查询指定时区的 UTC 偏移、缩写与未来切换时间点。"
+ },
+ "u3000-normalize": {
+  "name": "全角空格规范化工具",
+  "category": "文本处理",
+  "summary": "u3000-normalize.py — 全角空格规范化工具。"
+ },
+ "ulid-tool": {
+  "name": "ULID 生成/解析工具",
+  "category": "开发助手",
+  "summary": "ULID 生成/解析工具：48 位毫秒时间戳 + 80 位随机数，26 字符 Crockford Base32。"
+ },
+ "uni-normalize": {
+  "name": "Unicode 规范化工具",
+  "category": "文本处理",
+  "summary": "uni-normalize.py — Unicode 规范化工具。"
+ },
+ "unicode-escape-convert": {
+  "name": "转义序列转换",
+  "category": "编码与哈希",
+  "summary": "unicode-escape-convert 转义序列转换：把 \\\\uXXXX 转义形式的文本与真实"
+ },
+ "unicode-escape-tool": {
+  "name": "中文/emoji 文本与 \\uXXXX、\\N{...} 表示形式互相转换",
+  "category": "编码与哈希",
+  "summary": "unicode-escape-tool.py —— 中文/emoji 文本与 \\uXXXX、\\N{...} 表示形式互相转换。"
+ },
+ "unicode-normalize-check": {
+  "name": "Unicode 规范化检查 / unicode-normalize-check",
+  "category": "文本处理",
+  "summary": "Unicode 规范化检查 / unicode-normalize-check"
+ },
+ "unicode-rename": {
+  "name": "Unicode 规范化重命名",
+  "category": "文件与目录",
+  "summary": "Unicode 规范化重命名 (unicode-rename)"
+ },
+ "url-encode-tool": {
+  "name": "URL 百分号编码/解码",
+  "category": "编码与哈希",
+  "summary": "url-encode-tool.py —— URL 百分号编码/解码, 可用 --safe 指定额外保留字符集。"
+ },
+ "url-query-decode": {
+  "name": "拆解 URL 查询串为键值表并逐项解码",
+  "category": "编码与哈希",
+  "summary": "url-query-decode.py —— 拆解 URL 查询串为键值表并逐项解码, 或反向构建查询串。"
+ },
+ "utf16-to-utf8": {
+  "name": "UTF-16 专项转换",
+  "category": "编码与哈希",
+  "summary": "utf16-to-utf8 UTF-16 专项转换：检测 UTF-16 BOM 与字节序（含无 BOM 猜测），"
+ },
+ "uuencode-tool": {
+  "name": "传统 uuencode/uudecode 编解码器",
+  "category": "编码与哈希",
+  "summary": "uuencode-tool.py — 传统 uuencode/uudecode 编解码器(单文件, 仅标准库)。"
+ },
+ "uuid-bulk": {
+  "name": "UUID 清单批量生成与导出",
+  "category": "开发助手",
+  "summary": "uuid-bulk.py —— UUID 清单批量生成与导出（单文件，纯 Python 标准库）。"
+ },
+ "uuid-compact": {
+  "name": "UUID 紧凑编码",
+  "category": "开发助手",
+  "summary": "UUID 紧凑编码：标准 UUID、无连字符 hex、Crockford Base32 紧凑形式互相转换。"
+ },
+ "uuid-extract": {
+  "name": "UUID 抽取器",
+  "category": "开发助手",
+  "summary": "UUID 抽取器：用正则从文本/日志中抽取所有 UUID，去重并按版本归类。"
+ },
+ "uuid-namespace": {
+  "name": "命名空间管理器",
+  "category": "开发助手",
+  "summary": "命名空间管理器：登记自定义命名空间 UUID（存本地 JSON），用固定盐生成稳定可复现 UUID。"
+ },
+ "uuid-parse": {
+  "name": "UUID 结构解析器",
+  "category": "开发助手",
+  "summary": "uuid-parse.py —— UUID 结构解析器（单文件，纯 Python 标准库）。"
+ },
+ "uuid-sort": {
+  "name": "UUID 时序排序器",
+  "category": "开发助手",
+  "summary": "uuid-sort.py —— UUID 时序排序器（单文件，纯 Python 标准库）。"
+ },
+ "uuid-validate": {
+  "name": "UUID 批量格式校验与版本分类统计",
+  "category": "开发助手",
+  "summary": "uuid-validate.py —— UUID 批量格式校验与版本分类统计（单文件，纯 Python 标准库）。"
+ },
+ "uuid1-gen": {
+  "name": "UUIDv1 生成器",
+  "category": "开发助手",
+  "summary": "UUIDv1 生成器 —— 生成基于时间戳 + MAC 的 UUIDv1（RFC 4122），并解读其时间/时钟序列/节点字段。"
+ },
+ "uuid4-gen": {
+  "name": "UUIDv4 批量生成器",
+  "category": "开发助手",
+  "summary": "UUIDv4 批量生成器 —— 用 os.urandom 级随机源批量生成随机 UUID，格式可选大括号/URN/无连字符/大写。"
+ },
+ "uuid5-gen": {
+  "name": "命名空间 UUID 生成器",
+  "category": "开发助手",
+  "summary": "命名空间 UUID 生成器 —— 生成 v3(MD5)/v5(SHA1) 命名 UUID（RFC 4122/9562），内置 DNS/URL/OID/X500 命名空间。"
+ },
+ "uuid7-gen": {
+  "name": "RFC 9562 UUIDv7 生成器",
+  "category": "开发助手",
+  "summary": "uuid7-gen.py —— RFC 9562 UUIDv7 生成器（单文件，纯 Python 标准库）。"
+ },
+ "vacation-planner": {
+  "name": "请假方案优化",
+  "category": "日期与日历",
+  "summary": "请假方案优化（vacation-planner）——结合节假日表推荐请哪几天假能拼出最长连续假期。"
+ },
+ "vcard-to-csv": {
+  "name": "vCard 转 CSV",
+  "category": "数据转换",
+  "summary": "vCard 转 CSV：解析 .vcf 联系人文件的基本字段（FN/N/TEL/EMAIL/ORG 等），输出为 CSV。"
+ },
+ "verify-manifest": {
+  "name": "校验和清单验证",
+  "category": "编码与哈希",
+  "summary": "校验和清单验证：按 sha256sum 风格清单逐条验证文件，结果分三类输出。"
+ },
+ "vertical-punct-convert": {
+  "name": "竖排标点转换",
+  "category": "中文本地化",
+  "summary": "竖排标点转换（vertical-punct-convert）"
+ },
+ "wan-section-lint": {
+  "name": "分节符混用检查",
+  "category": "财务人民币",
+  "summary": "分节符混用检查（wan-section-lint）。"
+ },
+ "watermark-remove": {
+  "name": "水印广告行删除",
+  "category": "文本处理",
+  "summary": "水印广告行删除——按规则文件（正则列表）删除小说 TXT 中的水印/广告行。"
+ },
+ "weather-icon": {
+  "name": "天气字符画",
+  "category": "趣味生成",
+  "summary": "天气字符画 (weather-icon) -- 按参数画出晴/雨/雪/雷的 ASCII 天气图标。"
+ },
+ "webp-header-read": {
+  "name": "WebP 头读取",
+  "category": "图片与媒体",
+  "summary": "WebP 头读取 —— 解析 WebP（RIFF 容器）的 VP8/VP8L/VP8X 块。"
+ },
+ "week-numbering": {
+  "name": "周编号体系对比",
+  "category": "日期与日历",
+  "summary": "周编号体系对比:同一天在 ISO-8601、美国、简单周编号三种体系下的周号对照。"
+ },
+ "week-range": {
+  "name": "所在周起止计算",
+  "category": "日期与日历",
+  "summary": "所在周起止计算:计算日期所在周的起止日期,周起始日可配置为周一或周日。"
+ },
+ "weekday-of": {
+  "name": "星期几查询",
+  "category": "日期与日历",
+  "summary": "星期几查询 —— 输出指定日期的星期几，一次给出中/英/日/德/法/西/俄/韩多语言星期名称。"
+ },
+ "weighted-lottery": {
+  "name": "加权抽签筒",
+  "category": "效率办公",
+  "summary": "加权抽签筒（weighted-lottery）：按权重抽人，例如组长被抽中做分享的概率更高。"
+ },
+ "word-freq": {
+  "name": "词频统计",
+  "category": "文本处理",
+  "summary": "词频统计（中英混排）：英文按单词统计，中文按双字组合（bigram）统计，输出 Top-N 表格。"
+ },
+ "word-level-diff": {
+  "name": "单词级 diff",
+  "category": "文本处理",
+  "summary": "单词级 diff：对两个文件先按行配对，再在行内做单词级差异标记，变化点更精确。"
+ },
+ "workday-add": {
+  "name": "工作日加减推算",
+  "category": "日期与日历",
+  "summary": "工作日加减推算 —— 从给定日期向前/向后推 N 个工作日。"
+ },
+ "workday-diff": {
+  "name": "工作日间隔统计",
+  "category": "日期与日历",
+  "summary": "工作日间隔统计 —— 统计两日期之间的工作日数量，分别列出排除的周末与节假日。"
+ },
+ "workday-grid": {
+  "name": "工作日历矩阵",
+  "category": "日期与日历",
+  "summary": "工作日历矩阵 —— 在终端渲染指定月份的日历网格，用符号标记节假日(*)、"
+ },
+ "world-clock": {
+  "name": "多城市世界时钟",
+  "category": "日期与日历",
+  "summary": "多城市世界时钟 —— 持续刷新显示多个城市当前时间、UTC 偏移与是否夏令时。"
+ },
+ "wrap-fold": {
+  "name": "自动换行折叠",
+  "category": "文本处理",
+  "summary": "自动换行折叠(wrap-fold)"
+ },
+ "ws-normalize": {
+  "name": "空白规范化",
+  "category": "文本处理",
+  "summary": "空白规范化（ws-normalize）——把文本做可配置的空白规范化后输出。"
+ },
+ "wuxia-name": {
+  "name": "武侠人名生成",
+  "category": "趣味生成",
+  "summary": "wuxia-name.py — 武侠人名生成: 姓氏+意境字组合出武侠角色名与江湖绰号(单文件, 仅标准库)。"
+ },
+ "xbm-xpm-size": {
+  "name": "XBM/XPM 尺寸读取器",
+  "category": "图片与媒体",
+  "summary": "XBM/XPM 尺寸读取器(xbm-xpm-size) —— 从 XBM 的 C 宏定义或 XPM 的字符串数组中解析位图宽高。"
+ },
+ "xml-to-json": {
+  "name": "XML 转 JSON",
+  "category": "数据转换",
+  "summary": "XML 转 JSON —— 用 ElementTree 把 XML 展开为嵌套 JSON。"
+ },
+ "xml2json": {
+  "name": "XML 转 JSON",
+  "category": "数据转换",
+  "summary": "XML 转 JSON — 用 ElementTree 把 XML 元素树转成保留属性与文本的 JSON 结构。"
+ },
+ "xmp-extract": {
+  "name": "XMP 提取",
+  "category": "图片与媒体",
+  "summary": "XMP 提取 —— 在 JPEG/PNG/TIFF 中定位 XMP 元数据包并原样输出其 XML 文本。"
+ },
+ "xor-crack-single": {
+  "name": "单字节 XOR 分析",
+  "category": "密码与安全",
+  "summary": "单字节 XOR 分析 (xor-crack-single) —— CTF 教学."
+ },
+ "xor-tool": {
+  "name": "XOR 加解密",
+  "category": "密码与安全",
+  "summary": "XOR 加解密 (xor-tool) —— 重复密钥 XOR, 供教学与 CTF 使用."
+ },
+ "xxd-roundtrip": {
+  "name": "生成 xxd 风格十六进制 dump",
+  "category": "编码与哈希",
+  "summary": "xxd-roundtrip.py —— 生成 xxd 风格十六进制 dump，并能从 dump 文本还原原始二进制。"
+ },
+ "yaml-multidoc-merge": {
+  "name": "把多个 YAML 文件按命令行顺序合并成",
+  "category": "数据转换",
+  "summary": "yaml-multidoc-merge —— 把多个 YAML 文件按命令行顺序合并成"
+ },
+ "yaml-multidoc-split": {
+  "name": "把含 --- 分隔的多文档 YAML 拆成单文档文件",
+  "category": "数据转换",
+  "summary": "yaml-multidoc-split —— 把含 --- 分隔的多文档 YAML 拆成单文档文件。"
+ },
+ "yaml-subset2json": {
+  "name": "YAML 子集转 JSON",
+  "category": "数据转换",
+  "summary": "YAML 子集转 JSON (yaml-subset2json) —— 自实现的 YAML 子集解析器，"
+ },
+ "yaml2csv-lite": {
+  "name": "把 YAML 里的“对象列表”节点导出为 CSV",
+  "category": "数据转换",
+  "summary": "yaml2csv-lite —— 把 YAML 里的“对象列表”节点导出为 CSV(纯标准库, 不依赖 PyYAML)。"
+ },
+ "yaml2json-lite": {
+  "name": "YAML 转 JSON",
+  "category": "数据转换",
+  "summary": "YAML 转 JSON（子集）：内置迷你 YAML 解析器，报错时给出确切行号。"
+ },
+ "year-progress": {
+  "name": "年度进度显示",
+  "category": "日期与日历",
+  "summary": "年度进度显示：显示当前年度已过百分比的动态进度条，精确到日。"
+ },
+ "yes-no-oracle": {
+  "name": "是非神谕",
+  "category": "趣味生成",
+  "summary": "是非神谕 —— 只回答 是 / 否 / 再问一次，并附赠一条随机胡扯的理由。"
+ },
+ "zalgo-text": {
+  "name": "火星文加料",
+  "category": "趣味生成",
+  "summary": "火星文加料 —— 给文字叠加杂乱变音符，生成 cursed 风格文字（Zalgo Text）。"
+ },
+ "zero-width-clean": {
+  "name": "零宽/隐形字符清理工具",
+  "category": "文本处理",
+  "summary": "zero-width-clean.py — 零宽/隐形字符清理工具。"
+ },
+ "zip-integrity-test": {
+  "name": "压缩包完整性测试",
+  "category": "文件与目录",
+  "summary": "zip-integrity-test.py —— 压缩包完整性测试"
+ },
+ "zodiac-west": {
+  "name": "西方星座查询",
+  "category": "趣味生成",
+  "summary": "西方星座查询（Western Zodiac by birth date）。"
+ }
+}
